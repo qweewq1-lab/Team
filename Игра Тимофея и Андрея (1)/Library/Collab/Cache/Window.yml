@@ -1,0 +1,1654 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/FPS.meta
+    - Assets/FPS/Animation.meta
+    - Assets/FPS/Animation/Controllers.meta
+    - Assets/FPS/Animation/Controllers/HoverBot_AnimationController.controller
+    - Assets/FPS/Animation/Controllers/HoverBot_AnimationController.controller.meta
+    - Assets/FPS/Animation/Controllers/Turret_AnimationController.controller
+    - Assets/FPS/Animation/Controllers/Turret_AnimationController.controller.meta
+    - Assets/FPS/Animation/HoverBot.meta
+    - Assets/FPS/Animation/HoverBot/HoverBot@Alerted.fbx
+    - Assets/FPS/Animation/HoverBot/HoverBot@Alerted.fbx.meta
+    - Assets/FPS/Animation/HoverBot/HoverBot@Hurt.fbx
+    - Assets/FPS/Animation/HoverBot/HoverBot@Hurt.fbx.meta
+    - Assets/FPS/Animation/HoverBot/HoverBot@Idle.fbx
+    - Assets/FPS/Animation/HoverBot/HoverBot@Idle.fbx.meta
+    - Assets/FPS/Animation/HoverBot/HoverBot@IdleClosed.fbx
+    - Assets/FPS/Animation/HoverBot/HoverBot@IdleClosed.fbx.meta
+    - Assets/FPS/Animation/HoverBot/HoverBot@RunFoward.fbx
+    - Assets/FPS/Animation/HoverBot/HoverBot@RunFoward.fbx.meta
+    - Assets/FPS/Animation/HoverBot/HoverBot@RunFowardClosed.fbx
+    - Assets/FPS/Animation/HoverBot/HoverBot@RunFowardClosed.fbx.meta
+    - Assets/FPS/Animation/HoverBot/HoverBot@Shoot.fbx
+    - Assets/FPS/Animation/HoverBot/HoverBot@Shoot.fbx.meta
+    - Assets/FPS/Animation/Masks.meta
+    - Assets/FPS/Animation/Masks/HoverBot.mask
+    - Assets/FPS/Animation/Masks/HoverBot.mask.meta
+    - Assets/FPS/Animation/Masks/Turret.mask
+    - Assets/FPS/Animation/Masks/Turret.mask.meta
+    - Assets/FPS/Animation/Rigs.meta
+    - Assets/FPS/Animation/Rigs/HoverBot.fbx
+    - Assets/FPS/Animation/Rigs/HoverBot.fbx.meta
+    - Assets/FPS/Animation/Rigs/Materials.meta
+    - Assets/FPS/Animation/Rigs/Materials/Default_Material.mat
+    - Assets/FPS/Animation/Rigs/Materials/Default_Material.mat.meta
+    - Assets/FPS/Animation/Rigs/Turret.fbx
+    - Assets/FPS/Animation/Rigs/Turret.fbx.meta
+    - Assets/FPS/Animation/Turret.meta
+    - Assets/FPS/Animation/Turret/Turret@ActivatedHurt.fbx
+    - Assets/FPS/Animation/Turret/Turret@ActivatedHurt.fbx.meta
+    - Assets/FPS/Animation/Turret/Turret@AttackIn.fbx
+    - Assets/FPS/Animation/Turret/Turret@AttackIn.fbx.meta
+    - Assets/FPS/Animation/Turret/Turret@AttackLoop.fbx
+    - Assets/FPS/Animation/Turret/Turret@AttackLoop.fbx.meta
+    - Assets/FPS/Animation/Turret/Turret@AttackOut.fbx
+    - Assets/FPS/Animation/Turret/Turret@AttackOut.fbx.meta
+    - Assets/FPS/Animation/Turret/Turret@Idle.fbx
+    - Assets/FPS/Animation/Turret/Turret@Idle.fbx.meta
+    - Assets/FPS/Animation/Turret/Turret@PassiveHurt.fbx
+    - Assets/FPS/Animation/Turret/Turret@PassiveHurt.fbx.meta
+    - Assets/FPS/Art.meta
+    - Assets/FPS/Art/Fonts.meta
+    - Assets/FPS/Art/Fonts/ApacheLicense2.0.txt
+    - Assets/FPS/Art/Fonts/ApacheLicense2.0.txt.meta
+    - Assets/FPS/Art/Fonts/Roboto-Black SDF.asset
+    - Assets/FPS/Art/Fonts/Roboto-Black SDF.asset.meta
+    - Assets/FPS/Art/Fonts/Roboto-Black.ttf
+    - Assets/FPS/Art/Fonts/Roboto-Black.ttf.meta
+    - Assets/FPS/Art/Fonts/Roboto-Regular SDF.asset
+    - Assets/FPS/Art/Fonts/Roboto-Regular SDF.asset.meta
+    - Assets/FPS/Art/Fonts/Roboto-Regular.ttf
+    - Assets/FPS/Art/Fonts/Roboto-Regular.ttf.meta
+    - Assets/FPS/Art/Materials.meta
+    - Assets/FPS/Art/Materials/Enemies.meta
+    - Assets/FPS/Art/Materials/Enemies/HoverBot_Body.mat
+    - Assets/FPS/Art/Materials/Enemies/HoverBot_Body.mat.meta
+    - Assets/FPS/Art/Materials/Enemies/HoverBot_Eye.mat
+    - Assets/FPS/Art/Materials/Enemies/HoverBot_Eye.mat.meta
+    - Assets/FPS/Art/Materials/Enemies/HoverBot_Glass.mat
+    - Assets/FPS/Art/Materials/Enemies/HoverBot_Glass.mat.meta
+    - Assets/FPS/Art/Materials/Enemies/Turret_Body.mat
+    - Assets/FPS/Art/Materials/Enemies/Turret_Body.mat.meta
+    - Assets/FPS/Art/Materials/Enemies/Turret_Eye.mat
+    - Assets/FPS/Art/Materials/Enemies/Turret_Eye.mat.meta
+    - Assets/FPS/Art/Materials/Enemies/Turret_Glass.mat
+    - Assets/FPS/Art/Materials/Enemies/Turret_Glass.mat.meta
+    - Assets/FPS/Art/Materials/Level.meta
+    - Assets/FPS/Art/Materials/Level/Floor_DarkGrey.mat
+    - Assets/FPS/Art/Materials/Level/Floor_DarkGrey.mat.meta
+    - Assets/FPS/Art/Materials/Level/Floor_DarkGrey_Transparent.mat
+    - Assets/FPS/Art/Materials/Level/Floor_DarkGrey_Transparent.mat.meta
+    - Assets/FPS/Art/Materials/Level/Floor_Grey.mat
+    - Assets/FPS/Art/Materials/Level/Floor_Grey.mat.meta
+    - Assets/FPS/Art/Materials/Level/Floor_Grey_Transparent.mat
+    - Assets/FPS/Art/Materials/Level/Floor_Grey_Transparent.mat.meta
+    - Assets/FPS/Art/Materials/Level/Ramp_Blue.mat
+    - Assets/FPS/Art/Materials/Level/Ramp_Blue.mat.meta
+    - Assets/FPS/Art/Materials/Level/Ramp_Blue_Transparent.mat
+    - Assets/FPS/Art/Materials/Level/Ramp_Blue_Transparent.mat.meta
+    - Assets/FPS/Art/Materials/Level/Sign_Blue_Transparent.mat
+    - Assets/FPS/Art/Materials/Level/Sign_Blue_Transparent.mat.meta
+    - Assets/FPS/Art/Materials/Level/Sign_Green.mat
+    - Assets/FPS/Art/Materials/Level/Sign_Green.mat.meta
+    - Assets/FPS/Art/Materials/Level/Sign_Green_Transparent.mat
+    - Assets/FPS/Art/Materials/Level/Sign_Green_Transparent.mat.meta
+    - Assets/FPS/Art/Materials/Level/Sign_Orange.mat
+    - Assets/FPS/Art/Materials/Level/Sign_Orange.mat.meta
+    - Assets/FPS/Art/Materials/Level/Sign_Orange_Transparent.mat
+    - Assets/FPS/Art/Materials/Level/Sign_Orange_Transparent.mat.meta
+    - Assets/FPS/Art/Materials/Level/Wall_DarkGrey.mat
+    - Assets/FPS/Art/Materials/Level/Wall_DarkGrey.mat.meta
+    - Assets/FPS/Art/Materials/Level/Wall_Grey.mat
+    - Assets/FPS/Art/Materials/Level/Wall_Grey.mat.meta
+    - Assets/FPS/Art/Materials/ObjectiveReachPoint.mat
+    - Assets/FPS/Art/Materials/ObjectiveReachPoint.mat.meta
+    - Assets/FPS/Art/Materials/Props.meta
+    - Assets/FPS/Art/Materials/Props/Jetpack.mat
+    - Assets/FPS/Art/Materials/Props/Jetpack.mat.meta
+    - Assets/FPS/Art/Materials/Skybox.mat
+    - Assets/FPS/Art/Materials/Skybox.mat.meta
+    - Assets/FPS/Art/Materials/SpeedLine.mat
+    - Assets/FPS/Art/Materials/SpeedLine.mat.meta
+    - Assets/FPS/Art/Materials/TrailDeath.mat
+    - Assets/FPS/Art/Materials/TrailDeath.mat.meta
+    - Assets/FPS/Art/Materials/VFX.meta
+    - Assets/FPS/Art/Materials/VFX/DiskExplosion.mat
+    - Assets/FPS/Art/Materials/VFX/DiskExplosion.mat.meta
+    - Assets/FPS/Art/Materials/VFX/DiskExplosionRange.mat
+    - Assets/FPS/Art/Materials/VFX/DiskExplosionRange.mat.meta
+    - Assets/FPS/Art/Materials/VFX/DiskSpinning.mat
+    - Assets/FPS/Art/Materials/VFX/DiskSpinning.mat.meta
+    - Assets/FPS/Art/Materials/VFX/Dust.mat
+    - Assets/FPS/Art/Materials/VFX/Dust.mat.meta
+    - Assets/FPS/Art/Materials/VFX/ExclamationMark.mat
+    - Assets/FPS/Art/Materials/VFX/ExclamationMark.mat.meta
+    - Assets/FPS/Art/Materials/VFX/FakeShadowBlob.mat
+    - Assets/FPS/Art/Materials/VFX/FakeShadowBlob.mat.meta
+    - Assets/FPS/Art/Materials/VFX/GunCylinders.mat
+    - Assets/FPS/Art/Materials/VFX/GunCylinders.mat.meta
+    - Assets/FPS/Art/Materials/VFX/GunCylinders_Trail.mat
+    - Assets/FPS/Art/Materials/VFX/GunCylinders_Trail.mat.meta
+    - Assets/FPS/Art/Materials/VFX/HealthCube.mat
+    - Assets/FPS/Art/Materials/VFX/HealthCube.mat.meta
+    - Assets/FPS/Art/Materials/VFX/HealthGlow.mat
+    - Assets/FPS/Art/Materials/VFX/HealthGlow.mat.meta
+    - Assets/FPS/Art/Materials/VFX/HealthPickups.mat
+    - Assets/FPS/Art/Materials/VFX/HealthPickups.mat.meta
+    - Assets/FPS/Art/Materials/VFX/ImpactFlare.mat
+    - Assets/FPS/Art/Materials/VFX/ImpactFlare.mat.meta
+    - Assets/FPS/Art/Materials/VFX/JetPackTrail.mat
+    - Assets/FPS/Art/Materials/VFX/JetPackTrail.mat.meta
+    - Assets/FPS/Art/Materials/VFX/Lazer_Blue.mat
+    - Assets/FPS/Art/Materials/VFX/Lazer_Blue.mat.meta
+    - Assets/FPS/Art/Materials/VFX/Lazer_Green.mat
+    - Assets/FPS/Art/Materials/VFX/Lazer_Green.mat.meta
+    - Assets/FPS/Art/Materials/VFX/Lazer_Red.mat
+    - Assets/FPS/Art/Materials/VFX/Lazer_Red.mat.meta
+    - Assets/FPS/Art/Materials/VFX/M_HealthPickup.mat
+    - Assets/FPS/Art/Materials/VFX/M_HealthPickup.mat.meta
+    - Assets/FPS/Art/Materials/VFX/MuzzleFlash.mat
+    - Assets/FPS/Art/Materials/VFX/MuzzleFlash.mat.meta
+    - Assets/FPS/Art/Materials/VFX/PickupSparkles.mat
+    - Assets/FPS/Art/Materials/VFX/PickupSparkles.mat.meta
+    - Assets/FPS/Art/Materials/VFX/ProjectileTrail.mat
+    - Assets/FPS/Art/Materials/VFX/ProjectileTrail.mat.meta
+    - Assets/FPS/Art/Materials/VFX/Projectile_blue.mat
+    - Assets/FPS/Art/Materials/VFX/Projectile_blue.mat.meta
+    - Assets/FPS/Art/Materials/VFX/Projectile_green.mat
+    - Assets/FPS/Art/Materials/VFX/Projectile_green.mat.meta
+    - Assets/FPS/Art/Materials/VFX/Projectile_red.mat
+    - Assets/FPS/Art/Materials/VFX/Projectile_red.mat.meta
+    - Assets/FPS/Art/Materials/VFX/ShrapnelTriangle.mat
+    - Assets/FPS/Art/Materials/VFX/ShrapnelTriangle.mat.meta
+    - Assets/FPS/Art/Materials/VFX/SmokeAngry.mat
+    - Assets/FPS/Art/Materials/VFX/SmokeAngry.mat.meta
+    - Assets/FPS/Art/Materials/VFX/SmokeOverheat.mat
+    - Assets/FPS/Art/Materials/VFX/SmokeOverheat.mat.meta
+    - Assets/FPS/Art/Materials/VFX/Spark.mat
+    - Assets/FPS/Art/Materials/VFX/Spark.mat.meta
+    - Assets/FPS/Art/Materials/VFX/Sun.mat
+    - Assets/FPS/Art/Materials/VFX/Sun.mat.meta
+    - Assets/FPS/Art/Materials/VFX/Wireframe_Cage.mat
+    - Assets/FPS/Art/Materials/VFX/Wireframe_Cage.mat.meta
+    - Assets/FPS/Art/Materials/Weapons.meta
+    - Assets/FPS/Art/Materials/Weapons/Gun.mat
+    - Assets/FPS/Art/Materials/Weapons/Gun.mat.meta
+    - Assets/FPS/Art/Materials/Weapons/WeaponBlaster.mat
+    - Assets/FPS/Art/Materials/Weapons/WeaponBlaster.mat.meta
+    - Assets/FPS/Art/Materials/Weapons/WeaponDisc.mat
+    - Assets/FPS/Art/Materials/Weapons/WeaponDisc.mat.meta
+    - Assets/FPS/Art/Materials/Weapons/WeaponDisc_Transparent.mat
+    - Assets/FPS/Art/Materials/Weapons/WeaponDisc_Transparent.mat.meta
+    - Assets/FPS/Art/Materials/Weapons/WeaponLauncher.mat
+    - Assets/FPS/Art/Materials/Weapons/WeaponLauncher.mat.meta
+    - Assets/FPS/Art/Materials/Weapons/WeaponPistol.mat
+    - Assets/FPS/Art/Materials/Weapons/WeaponPistol.mat.meta
+    - Assets/FPS/Art/Materials/Weapons/WeaponPistol_Transparent.mat
+    - Assets/FPS/Art/Materials/Weapons/WeaponPistol_Transparent.mat.meta
+    - Assets/FPS/Art/Materials/Weapons/WeaponShotgun.mat
+    - Assets/FPS/Art/Materials/Weapons/WeaponShotgun.mat.meta
+    - Assets/FPS/Art/Materials/Weapons/WeaponShotgun_Transparent.mat
+    - Assets/FPS/Art/Materials/Weapons/WeaponShotgun_Transparent.mat.meta
+    - Assets/FPS/Art/Models.meta
+    - Assets/FPS/Art/Models/Mesh_ExplosionDisk.fbx
+    - Assets/FPS/Art/Models/Mesh_ExplosionDisk.fbx.meta
+    - Assets/FPS/Art/Models/Mesh_Health_Pickup.fbx
+    - Assets/FPS/Art/Models/Mesh_Health_Pickup.fbx.meta
+    - Assets/FPS/Art/Models/Mesh_Jetpack.fbx
+    - Assets/FPS/Art/Models/Mesh_Jetpack.fbx.meta
+    - Assets/FPS/Art/Models/Mesh_Projectile.fbx
+    - Assets/FPS/Art/Models/Mesh_Projectile.fbx.meta
+    - Assets/FPS/Art/Models/Mesh_ReachPoint_Objective.fbx
+    - Assets/FPS/Art/Models/Mesh_ReachPoint_Objective.fbx.meta
+    - Assets/FPS/Art/Models/Mesh_Sun.fbx
+    - Assets/FPS/Art/Models/Mesh_Sun.fbx.meta
+    - Assets/FPS/Art/Models/Mesh_Weapon_Primary.fbx
+    - Assets/FPS/Art/Models/Mesh_Weapon_Primary.fbx.meta
+    - Assets/FPS/Art/Models/Mesh_Weapon_Secondary.fbx
+    - Assets/FPS/Art/Models/Mesh_Weapon_Secondary.fbx.meta
+    - Assets/FPS/Art/Models/Mesh_WireframeRangeCage.fbx
+    - Assets/FPS/Art/Models/Mesh_WireframeRangeCage.fbx.meta
+    - Assets/FPS/Art/Shaders.meta
+    - Assets/FPS/Art/Shaders/ProjectorMultiply.shader
+    - Assets/FPS/Art/Shaders/ProjectorMultiply.shader.meta
+    - Assets/FPS/Art/Textures.meta
+    - Assets/FPS/Art/Textures/Backgrounds.meta
+    - Assets/FPS/Art/Textures/Backgrounds/UnityTutorial_Skybox05_4k.png
+    - Assets/FPS/Art/Textures/Backgrounds/UnityTutorial_Skybox05_4k.png.meta
+    - Assets/FPS/Art/Textures/Backgrounds/Unity_skyboxBG01.png
+    - Assets/FPS/Art/Textures/Backgrounds/Unity_skyboxBG01.png.meta
+    - Assets/FPS/Art/Textures/Backgrounds/Unity_skyboxBG02.png
+    - Assets/FPS/Art/Textures/Backgrounds/Unity_skyboxBG02.png.meta
+    - Assets/FPS/Art/Textures/Characters.meta
+    - Assets/FPS/Art/Textures/Characters/HoverBot_Body_AO.png
+    - Assets/FPS/Art/Textures/Characters/HoverBot_Body_AO.png.meta
+    - Assets/FPS/Art/Textures/Characters/HoverBot_Body_Albedo.png
+    - Assets/FPS/Art/Textures/Characters/HoverBot_Body_Albedo.png.meta
+    - Assets/FPS/Art/Textures/Characters/HoverBot_Body_MetallicSmooth.png
+    - Assets/FPS/Art/Textures/Characters/HoverBot_Body_MetallicSmooth.png.meta
+    - Assets/FPS/Art/Textures/Characters/HoverBot_Glass_Albedo.png
+    - Assets/FPS/Art/Textures/Characters/HoverBot_Glass_Albedo.png.meta
+    - Assets/FPS/Art/Textures/Characters/HoverBot_Light__Emission.png
+    - Assets/FPS/Art/Textures/Characters/HoverBot_Light__Emission.png.meta
+    - Assets/FPS/Art/Textures/Characters/Turret_Body_AO.png
+    - Assets/FPS/Art/Textures/Characters/Turret_Body_AO.png.meta
+    - Assets/FPS/Art/Textures/Characters/Turret_Body_Albedo.png
+    - Assets/FPS/Art/Textures/Characters/Turret_Body_Albedo.png.meta
+    - Assets/FPS/Art/Textures/Characters/Turret_Body_MetallicSmooth.png
+    - Assets/FPS/Art/Textures/Characters/Turret_Body_MetallicSmooth.png.meta
+    - Assets/FPS/Art/Textures/Characters/Turret_Glass_Albedo.png
+    - Assets/FPS/Art/Textures/Characters/Turret_Glass_Albedo.png.meta
+    - Assets/FPS/Art/Textures/Characters/Turret_Light_Emission.png
+    - Assets/FPS/Art/Textures/Characters/Turret_Light_Emission.png.meta
+    - Assets/FPS/Art/Textures/Pickups.meta
+    - Assets/FPS/Art/Textures/Pickups/HealthPickup_AO.png
+    - Assets/FPS/Art/Textures/Pickups/HealthPickup_AO.png.meta
+    - Assets/FPS/Art/Textures/Pickups/HealthPickup_Albedo.png
+    - Assets/FPS/Art/Textures/Pickups/HealthPickup_Albedo.png.meta
+    - Assets/FPS/Art/Textures/Pickups/HealthPickup_Emissive.png
+    - Assets/FPS/Art/Textures/Pickups/HealthPickup_Emissive.png.meta
+    - Assets/FPS/Art/Textures/Pickups/HealthPickup_Normal.png
+    - Assets/FPS/Art/Textures/Pickups/HealthPickup_Normal.png.meta
+    - Assets/FPS/Art/Textures/Pickups/Jetpack_AO.png
+    - Assets/FPS/Art/Textures/Pickups/Jetpack_AO.png.meta
+    - Assets/FPS/Art/Textures/Pickups/Jetpack_Albedo.png
+    - Assets/FPS/Art/Textures/Pickups/Jetpack_Albedo.png.meta
+    - Assets/FPS/Art/Textures/Pickups/Jetpack__MetallicSmooth.png
+    - Assets/FPS/Art/Textures/Pickups/Jetpack__MetallicSmooth.png.meta
+    - Assets/FPS/Art/Textures/Pickups/Jetpack__Normal.png
+    - Assets/FPS/Art/Textures/Pickups/Jetpack__Normal.png.meta
+    - Assets/FPS/Art/Textures/Pickups/Materials.meta
+    - Assets/FPS/Art/Textures/Pickups/Materials/HealthPickup_Normal.mat
+    - Assets/FPS/Art/Textures/Pickups/Materials/HealthPickup_Normal.mat.meta
+    - Assets/FPS/Art/Textures/Props.meta
+    - Assets/FPS/Art/Textures/Props/StatueBig_AO.png
+    - Assets/FPS/Art/Textures/Props/StatueBig_AO.png.meta
+    - Assets/FPS/Art/Textures/Props/StatueBig_Albedo.png
+    - Assets/FPS/Art/Textures/Props/StatueBig_Albedo.png.meta
+    - Assets/FPS/Art/Textures/Props/StatueBig_Emissive.png
+    - Assets/FPS/Art/Textures/Props/StatueBig_Emissive.png.meta
+    - Assets/FPS/Art/Textures/Props/StatueBig_MetallicSmooth.png
+    - Assets/FPS/Art/Textures/Props/StatueBig_MetallicSmooth.png.meta
+    - Assets/FPS/Art/Textures/Props/StatueBig_Normal.png
+    - Assets/FPS/Art/Textures/Props/StatueBig_Normal.png.meta
+    - Assets/FPS/Art/Textures/Props/WallStatue_AO.png
+    - Assets/FPS/Art/Textures/Props/WallStatue_AO.png.meta
+    - Assets/FPS/Art/Textures/Props/WallStatue_Albedo.png
+    - Assets/FPS/Art/Textures/Props/WallStatue_Albedo.png.meta
+    - Assets/FPS/Art/Textures/Props/WallStatue_Emissive.png
+    - Assets/FPS/Art/Textures/Props/WallStatue_Emissive.png.meta
+    - Assets/FPS/Art/Textures/Props/WallStatue_MetallicSmooth.png
+    - Assets/FPS/Art/Textures/Props/WallStatue_MetallicSmooth.png.meta
+    - Assets/FPS/Art/Textures/Props/WallStatue_Normal.png
+    - Assets/FPS/Art/Textures/Props/WallStatue_Normal.png.meta
+    - Assets/FPS/Art/Textures/UI.meta
+    - Assets/FPS/Art/Textures/UI/CloseBtn_Icon.png
+    - Assets/FPS/Art/Textures/UI/CloseBtn_Icon.png.meta
+    - Assets/FPS/Art/Textures/UI/ControlScheme_PopUp.png
+    - Assets/FPS/Art/Textures/UI/ControlScheme_PopUp.png.meta
+    - Assets/FPS/Art/Textures/UI/Crosshair_Blaster_Center.png
+    - Assets/FPS/Art/Textures/UI/Crosshair_Blaster_Center.png.meta
+    - Assets/FPS/Art/Textures/UI/Crosshair_Blaster_Side.png
+    - Assets/FPS/Art/Textures/UI/Crosshair_Blaster_Side.png.meta
+    - Assets/FPS/Art/Textures/UI/Crosshair_Drop.png
+    - Assets/FPS/Art/Textures/UI/Crosshair_Drop.png.meta
+    - Assets/FPS/Art/Textures/UI/Crosshair_Hexa.png
+    - Assets/FPS/Art/Textures/UI/Crosshair_Hexa.png.meta
+    - Assets/FPS/Art/Textures/UI/Crosshair_Shotgun_Circle.png
+    - Assets/FPS/Art/Textures/UI/Crosshair_Shotgun_Circle.png.meta
+    - Assets/FPS/Art/Textures/UI/Gradiants.png
+    - Assets/FPS/Art/Textures/UI/Gradiants.png.meta
+    - Assets/FPS/Art/Textures/UI/HUD_Jetpack_Icon.png
+    - Assets/FPS/Art/Textures/UI/HUD_Jetpack_Icon.png.meta
+    - Assets/FPS/Art/Textures/UI/HUD_KeyScroll_Icon.png
+    - Assets/FPS/Art/Textures/UI/HUD_KeyScroll_Icon.png.meta
+    - Assets/FPS/Art/Textures/UI/HUD_Key_Bg.png
+    - Assets/FPS/Art/Textures/UI/HUD_Key_Bg.png.meta
+    - Assets/FPS/Art/Textures/UI/HUD_LifeBar_Icon.png
+    - Assets/FPS/Art/Textures/UI/HUD_LifeBar_Icon.png.meta
+    - Assets/FPS/Art/Textures/UI/HUD_Weapon01.png
+    - Assets/FPS/Art/Textures/UI/HUD_Weapon01.png.meta
+    - Assets/FPS/Art/Textures/UI/HUD_Weapon02.png
+    - Assets/FPS/Art/Textures/UI/HUD_Weapon02.png.meta
+    - Assets/FPS/Art/Textures/UI/HUD_Weapon03.png
+    - Assets/FPS/Art/Textures/UI/HUD_Weapon03.png.meta
+    - Assets/FPS/Art/Textures/UI/Notification_Enemy_Icon.png
+    - Assets/FPS/Art/Textures/UI/Notification_Enemy_Icon.png.meta
+    - Assets/FPS/Art/Textures/UI/Notification_MainObj_Icon.png
+    - Assets/FPS/Art/Textures/UI/Notification_MainObj_Icon.png.meta
+    - Assets/FPS/Art/Textures/UI/Radar_Enemy_Icon.png
+    - Assets/FPS/Art/Textures/UI/Radar_Enemy_Icon.png.meta
+    - Assets/FPS/Art/Textures/UI/Radar_Enemy_IconBg.png
+    - Assets/FPS/Art/Textures/UI/Radar_Enemy_IconBg.png.meta
+    - Assets/FPS/Art/Textures/UI/Stance_Crouch_Icon.png
+    - Assets/FPS/Art/Textures/UI/Stance_Crouch_Icon.png.meta
+    - Assets/FPS/Art/Textures/UI/Stance_Sprint_Icon.png
+    - Assets/FPS/Art/Textures/UI/Stance_Sprint_Icon.png.meta
+    - Assets/FPS/Art/Textures/UI/Stance_Stand_Icon.png
+    - Assets/FPS/Art/Textures/UI/Stance_Stand_Icon.png.meta
+    - Assets/FPS/Art/Textures/UI/TEX_Black_16x16.png
+    - Assets/FPS/Art/Textures/UI/TEX_Black_16x16.png.meta
+    - Assets/FPS/Art/Textures/UI/TEX_White_16x16.png
+    - Assets/FPS/Art/Textures/UI/TEX_White_16x16.png.meta
+    - Assets/FPS/Art/Textures/UI/Transparent_Center.png
+    - Assets/FPS/Art/Textures/UI/Transparent_Center.png.meta
+    - Assets/FPS/Art/Textures/VFX.meta
+    - Assets/FPS/Art/Textures/VFX/Dot.png
+    - Assets/FPS/Art/Textures/VFX/Dot.png.meta
+    - Assets/FPS/Art/Textures/VFX/ExplosionRange.bmp
+    - Assets/FPS/Art/Textures/VFX/ExplosionRange.bmp.meta
+    - Assets/FPS/Art/Textures/VFX/ExplosionRing.png
+    - Assets/FPS/Art/Textures/VFX/ExplosionRing.png.meta
+    - Assets/FPS/Art/Textures/VFX/Falloff.psd
+    - Assets/FPS/Art/Textures/VFX/Falloff.psd.meta
+    - Assets/FPS/Art/Textures/VFX/Flare.png
+    - Assets/FPS/Art/Textures/VFX/Flare.png.meta
+    - Assets/FPS/Art/Textures/VFX/HealthPickUp.png
+    - Assets/FPS/Art/Textures/VFX/HealthPickUp.png.meta
+    - Assets/FPS/Art/Textures/VFX/JetPackPulse.png
+    - Assets/FPS/Art/Textures/VFX/JetPackPulse.png.meta
+    - Assets/FPS/Art/Textures/VFX/Materials.meta
+    - Assets/FPS/Art/Textures/VFX/Materials/HealthPickUp.mat
+    - Assets/FPS/Art/Textures/VFX/Materials/HealthPickUp.mat.meta
+    - Assets/FPS/Art/Textures/VFX/OverheatSmoke.png
+    - Assets/FPS/Art/Textures/VFX/OverheatSmoke.png.meta
+    - Assets/FPS/Art/Textures/VFX/Projectile.bmp
+    - Assets/FPS/Art/Textures/VFX/Projectile.bmp.meta
+    - Assets/FPS/Art/Textures/VFX/ProjectileRamp.png
+    - Assets/FPS/Art/Textures/VFX/ProjectileRamp.png.meta
+    - Assets/FPS/Art/Textures/VFX/Projectile_Trail.bmp
+    - Assets/FPS/Art/Textures/VFX/Projectile_Trail.bmp.meta
+    - Assets/FPS/Art/Textures/VFX/Shadow.psd
+    - Assets/FPS/Art/Textures/VFX/Shadow.psd.meta
+    - Assets/FPS/Art/Textures/VFX/ShrapnelTriangle.png
+    - Assets/FPS/Art/Textures/VFX/ShrapnelTriangle.png.meta
+    - Assets/FPS/Art/Textures/VFX/Symbol_Anger01.tga
+    - Assets/FPS/Art/Textures/VFX/Symbol_Anger01.tga.meta
+    - Assets/FPS/Art/Textures/VFX/Symbol_ExclamationMark.tga
+    - Assets/FPS/Art/Textures/VFX/Symbol_ExclamationMark.tga.meta
+    - Assets/FPS/Art/Textures/VFX/Symbol_Speedlines.tga
+    - Assets/FPS/Art/Textures/VFX/Symbol_Speedlines.tga.meta
+    - Assets/FPS/Art/Textures/VFX/Symbol_Speedlines_Atlas.tga
+    - Assets/FPS/Art/Textures/VFX/Symbol_Speedlines_Atlas.tga.meta
+    - Assets/FPS/Art/Textures/VFX/ThickSmoke.png
+    - Assets/FPS/Art/Textures/VFX/ThickSmoke.png.meta
+    - Assets/FPS/Art/Textures/VFX/ThickSmoke_N.png
+    - Assets/FPS/Art/Textures/VFX/ThickSmoke_N.png.meta
+    - Assets/FPS/Art/Textures/VFX/WireframeCage.png
+    - Assets/FPS/Art/Textures/VFX/WireframeCage.png.meta
+    - Assets/FPS/Art/Textures/Weapons.meta
+    - Assets/FPS/Art/Textures/Weapons/Blaster_AO.png
+    - Assets/FPS/Art/Textures/Weapons/Blaster_AO.png.meta
+    - Assets/FPS/Art/Textures/Weapons/Blaster_Albedo.png
+    - Assets/FPS/Art/Textures/Weapons/Blaster_Albedo.png.meta
+    - Assets/FPS/Art/Textures/Weapons/Blaster_Emissive.png
+    - Assets/FPS/Art/Textures/Weapons/Blaster_Emissive.png.meta
+    - Assets/FPS/Art/Textures/Weapons/Blaster_MetallicSmooth.png
+    - Assets/FPS/Art/Textures/Weapons/Blaster_MetallicSmooth.png.meta
+    - Assets/FPS/Art/Textures/Weapons/Blaster_Normal.png
+    - Assets/FPS/Art/Textures/Weapons/Blaster_Normal.png.meta
+    - Assets/FPS/Art/Textures/Weapons/Launcher_AO.png
+    - Assets/FPS/Art/Textures/Weapons/Launcher_AO.png.meta
+    - Assets/FPS/Art/Textures/Weapons/Launcher_Albedo.png
+    - Assets/FPS/Art/Textures/Weapons/Launcher_Albedo.png.meta
+    - Assets/FPS/Art/Textures/Weapons/Launcher_Emissive.png
+    - Assets/FPS/Art/Textures/Weapons/Launcher_Emissive.png.meta
+    - Assets/FPS/Art/Textures/Weapons/Launcher_MetallicSmooth.png
+    - Assets/FPS/Art/Textures/Weapons/Launcher_MetallicSmooth.png.meta
+    - Assets/FPS/Art/Textures/Weapons/Launcher_Normal.png
+    - Assets/FPS/Art/Textures/Weapons/Launcher_Normal.png.meta
+    - Assets/FPS/Audio.meta
+    - Assets/FPS/Audio/MainAudioMixer.mixer
+    - Assets/FPS/Audio/MainAudioMixer.mixer.meta
+    - Assets/FPS/Audio/Music.meta
+    - Assets/FPS/Audio/Music/Wind Ambience.mp3
+    - Assets/FPS/Audio/Music/Wind Ambience.mp3.meta
+    - Assets/FPS/Audio/SFX.meta
+    - Assets/FPS/Audio/SFX/Enemies.meta
+    - Assets/FPS/Audio/SFX/Enemies/Hoverbot_Alert.wav
+    - Assets/FPS/Audio/SFX/Enemies/Hoverbot_Alert.wav.meta
+    - Assets/FPS/Audio/SFX/Enemies/Hoverbot_Attack.wav
+    - Assets/FPS/Audio/SFX/Enemies/Hoverbot_Attack.wav.meta
+    - Assets/FPS/Audio/SFX/Enemies/Hoverbot_Death.wav
+    - Assets/FPS/Audio/SFX/Enemies/Hoverbot_Death.wav.meta
+    - Assets/FPS/Audio/SFX/Enemies/Hoverbot_Movement.wav
+    - Assets/FPS/Audio/SFX/Enemies/Hoverbot_Movement.wav.meta
+    - Assets/FPS/Audio/SFX/Enemies/Turret_Alert.mp3
+    - Assets/FPS/Audio/SFX/Enemies/Turret_Alert.mp3.meta
+    - Assets/FPS/Audio/SFX/Enemies/Turret_Attack.wav
+    - Assets/FPS/Audio/SFX/Enemies/Turret_Attack.wav.meta
+    - Assets/FPS/Audio/SFX/Enemies/Turret_Death.wav
+    - Assets/FPS/Audio/SFX/Enemies/Turret_Death.wav.meta
+    - Assets/FPS/Audio/SFX/Pickups.meta
+    - Assets/FPS/Audio/SFX/Pickups/Pickup_Health.wav
+    - Assets/FPS/Audio/SFX/Pickups/Pickup_Health.wav.meta
+    - Assets/FPS/Audio/SFX/Pickups/Pickup_Jetpack.wav
+    - Assets/FPS/Audio/SFX/Pickups/Pickup_Jetpack.wav.meta
+    - Assets/FPS/Audio/SFX/Pickups/Pickup_Weapon_Medium.wav
+    - Assets/FPS/Audio/SFX/Pickups/Pickup_Weapon_Medium.wav.meta
+    - Assets/FPS/Audio/SFX/Pickups/Pickup_Weapon_Small.wav
+    - Assets/FPS/Audio/SFX/Pickups/Pickup_Weapon_Small.wav.meta
+    - Assets/FPS/Audio/SFX/Player.meta
+    - Assets/FPS/Audio/SFX/Player/Damage_Tick.mp3
+    - Assets/FPS/Audio/SFX/Player/Damage_Tick.mp3.meta
+    - Assets/FPS/Audio/SFX/Player/Damage_Tick2.mp3
+    - Assets/FPS/Audio/SFX/Player/Damage_Tick2.mp3.meta
+    - Assets/FPS/Audio/SFX/Player/Footstep.wav
+    - Assets/FPS/Audio/SFX/Player/Footstep.wav.meta
+    - Assets/FPS/Audio/SFX/Player/Jetpack_Use.wav
+    - Assets/FPS/Audio/SFX/Player/Jetpack_Use.wav.meta
+    - Assets/FPS/Audio/SFX/Player/Jump.wav
+    - Assets/FPS/Audio/SFX/Player/Jump.wav.meta
+    - Assets/FPS/Audio/SFX/Player/Land.wav
+    - Assets/FPS/Audio/SFX/Player/Land.wav.meta
+    - Assets/FPS/Audio/SFX/Player/Land_Damage.wav
+    - Assets/FPS/Audio/SFX/Player/Land_Damage.wav.meta
+    - Assets/FPS/Audio/SFX/UI.meta
+    - Assets/FPS/Audio/SFX/UI/Notification_Chime.wav
+    - Assets/FPS/Audio/SFX/UI/Notification_Chime.wav.meta
+    - Assets/FPS/Audio/SFX/UI/Notification_End.wav
+    - Assets/FPS/Audio/SFX/UI/Notification_End.wav.meta
+    - Assets/FPS/Audio/SFX/UI/Notification_Snap.wav
+    - Assets/FPS/Audio/SFX/UI/Notification_Snap.wav.meta
+    - Assets/FPS/Audio/SFX/Weapons.meta
+    - Assets/FPS/Audio/SFX/Weapons/Blaster_Shot.wav
+    - Assets/FPS/Audio/SFX/Weapons/Blaster_Shot.wav.meta
+    - Assets/FPS/Audio/SFX/Weapons/Launcher_Charge_BuildUp.wav
+    - Assets/FPS/Audio/SFX/Weapons/Launcher_Charge_BuildUp.wav.meta
+    - Assets/FPS/Audio/SFX/Weapons/Launcher_Charge_Loop.wav
+    - Assets/FPS/Audio/SFX/Weapons/Launcher_Charge_Loop.wav.meta
+    - Assets/FPS/Audio/SFX/Weapons/Launcher_Explosion.wav
+    - Assets/FPS/Audio/SFX/Weapons/Launcher_Explosion.wav.meta
+    - Assets/FPS/Audio/SFX/Weapons/Launcher_Release.wav
+    - Assets/FPS/Audio/SFX/Weapons/Launcher_Release.wav.meta
+    - Assets/FPS/Audio/SFX/Weapons/Shotgun_Shot.wav
+    - Assets/FPS/Audio/SFX/Weapons/Shotgun_Shot.wav.meta
+    - Assets/FPS/Audio/SFX/Weapons/Weapon_Cooling.wav
+    - Assets/FPS/Audio/SFX/Weapons/Weapon_Cooling.wav.meta
+    - Assets/FPS/FPSMicrogame_README.txt
+    - Assets/FPS/FPSMicrogame_README.txt.meta
+    - Assets/FPS/Prefabs.meta
+    - Assets/FPS/Prefabs/Cube.prefab
+    - Assets/FPS/Prefabs/Cube.prefab.meta
+    - Assets/FPS/Prefabs/DebugTeleportPlayer.prefab
+    - Assets/FPS/Prefabs/DebugTeleportPlayer.prefab.meta
+    - Assets/FPS/Prefabs/Enemies.meta
+    - Assets/FPS/Prefabs/Enemies/Enemy_HoverBot.prefab
+    - Assets/FPS/Prefabs/Enemies/Enemy_HoverBot.prefab.meta
+    - Assets/FPS/Prefabs/Enemies/Enemy_Turret.prefab
+    - Assets/FPS/Prefabs/Enemies/Enemy_Turret.prefab.meta
+    - Assets/FPS/Prefabs/GameManager.prefab
+    - Assets/FPS/Prefabs/GameManager.prefab.meta
+    - Assets/FPS/Prefabs/Level.meta
+    - Assets/FPS/Prefabs/Level/BaseObjects.meta
+    - Assets/FPS/Prefabs/Level/BaseObjects/Basic_Floor_Mesh.prefab
+    - Assets/FPS/Prefabs/Level/BaseObjects/Basic_Floor_Mesh.prefab.meta
+    - Assets/FPS/Prefabs/Level/BaseObjects/Dun_BigDoor_Mesh.prefab
+    - Assets/FPS/Prefabs/Level/BaseObjects/Dun_BigDoor_Mesh.prefab.meta
+    - Assets/FPS/Prefabs/Level/BaseObjects/Floor_HalfIndented_Mesh.prefab
+    - Assets/FPS/Prefabs/Level/BaseObjects/Floor_HalfIndented_Mesh.prefab.meta
+    - Assets/FPS/Prefabs/Level/BaseObjects/Floor_Indented_Mesh.prefab
+    - Assets/FPS/Prefabs/Level/BaseObjects/Floor_Indented_Mesh.prefab.meta
+    - Assets/FPS/Prefabs/Level/BaseObjects/Ramp_3m_Mesh.prefab
+    - Assets/FPS/Prefabs/Level/BaseObjects/Ramp_3m_Mesh.prefab.meta
+    - Assets/FPS/Prefabs/Level/BaseObjects/Ramp_4m_Mesh.prefab
+    - Assets/FPS/Prefabs/Level/BaseObjects/Ramp_4m_Mesh.prefab.meta
+    - Assets/FPS/Prefabs/Level/BaseObjects/Ramp_8m_Mesh.prefab
+    - Assets/FPS/Prefabs/Level/BaseObjects/Ramp_8m_Mesh.prefab.meta
+    - Assets/FPS/Prefabs/Level/BaseObjects/Wall_1m_Mesh.prefab
+    - Assets/FPS/Prefabs/Level/BaseObjects/Wall_1m_Mesh.prefab.meta
+    - Assets/FPS/Prefabs/Level/BaseObjects/Wall_4m_Mesh.prefab
+    - Assets/FPS/Prefabs/Level/BaseObjects/Wall_4m_Mesh.prefab.meta
+    - Assets/FPS/Prefabs/Level/BaseObjects/Wall_DoorLarge_Mesh.prefab
+    - Assets/FPS/Prefabs/Level/BaseObjects/Wall_DoorLarge_Mesh.prefab.meta
+    - Assets/FPS/Prefabs/Level/BaseObjects/Wall_Door_Mesh.prefab
+    - Assets/FPS/Prefabs/Level/BaseObjects/Wall_Door_Mesh.prefab.meta
+    - Assets/FPS/Prefabs/Level/BaseObjects/Wall_Window_Mesh.prefab
+    - Assets/FPS/Prefabs/Level/BaseObjects/Wall_Window_Mesh.prefab.meta
+    - Assets/FPS/Prefabs/Level/BaseObjects/_ReadMe_BaseObjects.txt
+    - Assets/FPS/Prefabs/Level/BaseObjects/_ReadMe_BaseObjects.txt.meta
+    - Assets/FPS/Prefabs/Level/Catwalk.meta
+    - Assets/FPS/Prefabs/Level/Catwalk/Cat_Corner.prefab
+    - Assets/FPS/Prefabs/Level/Catwalk/Cat_Corner.prefab.meta
+    - Assets/FPS/Prefabs/Level/Catwalk/Cat_Corner_Window.prefab
+    - Assets/FPS/Prefabs/Level/Catwalk/Cat_Corner_Window.prefab.meta
+    - Assets/FPS/Prefabs/Level/Catwalk/Cat_Hall_Mix.prefab
+    - Assets/FPS/Prefabs/Level/Catwalk/Cat_Hall_Mix.prefab.meta
+    - Assets/FPS/Prefabs/Level/Catwalk/Cat_Hall_Wall.prefab
+    - Assets/FPS/Prefabs/Level/Catwalk/Cat_Hall_Wall.prefab.meta
+    - Assets/FPS/Prefabs/Level/Catwalk/Cat_Hall_Window.prefab
+    - Assets/FPS/Prefabs/Level/Catwalk/Cat_Hall_Window.prefab.meta
+    - Assets/FPS/Prefabs/Level/Crawl.meta
+    - Assets/FPS/Prefabs/Level/Crawl/Crawl_Hall.prefab
+    - Assets/FPS/Prefabs/Level/Crawl/Crawl_Hall.prefab.meta
+    - Assets/FPS/Prefabs/Level/Crawl/Crawl_Ramp.prefab
+    - Assets/FPS/Prefabs/Level/Crawl/Crawl_Ramp.prefab.meta
+    - Assets/FPS/Prefabs/Level/Dungeon.meta
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_BigDoor.prefab
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_BigDoor.prefab.meta
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Corner.prefab
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Corner.prefab.meta
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Cross.prefab
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Cross.prefab.meta
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_DeadEnd.prefab
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_DeadEnd.prefab.meta
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Descent.prefab
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Descent.prefab.meta
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Fork.prefab
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Fork.prefab.meta
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Hall.prefab
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Hall.prefab.meta
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Hall_Corner.prefab
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Hall_Corner.prefab.meta
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Hall_T.prefab
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Hall_T.prefab.meta
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Tower.prefab
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Tower.prefab.meta
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Tower_Open.prefab
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Tower_Open.prefab.meta
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Wall.prefab
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Wall.prefab.meta
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Wall_Open.prefab
+    - Assets/FPS/Prefabs/Level/Dungeon/Dun_Wall_Open.prefab.meta
+    - Assets/FPS/Prefabs/Level/Floors.meta
+    - Assets/FPS/Prefabs/Level/Floors/Basic_Floor.prefab
+    - Assets/FPS/Prefabs/Level/Floors/Basic_Floor.prefab.meta
+    - Assets/FPS/Prefabs/Level/Floors/Floor_12x12.prefab
+    - Assets/FPS/Prefabs/Level/Floors/Floor_12x12.prefab.meta
+    - Assets/FPS/Prefabs/Level/Floors/Floor_15x15.prefab
+    - Assets/FPS/Prefabs/Level/Floors/Floor_15x15.prefab.meta
+    - Assets/FPS/Prefabs/Level/Floors/Floor_18x18.prefab
+    - Assets/FPS/Prefabs/Level/Floors/Floor_18x18.prefab.meta
+    - Assets/FPS/Prefabs/Level/Floors/Floor_3x3.prefab
+    - Assets/FPS/Prefabs/Level/Floors/Floor_3x3.prefab.meta
+    - Assets/FPS/Prefabs/Level/Floors/Floor_6x6.prefab
+    - Assets/FPS/Prefabs/Level/Floors/Floor_6x6.prefab.meta
+    - Assets/FPS/Prefabs/Level/Floors/Floor_9x9.prefab
+    - Assets/FPS/Prefabs/Level/Floors/Floor_9x9.prefab.meta
+    - Assets/FPS/Prefabs/Level/Floors/Floor_Altar.prefab
+    - Assets/FPS/Prefabs/Level/Floors/Floor_Altar.prefab.meta
+    - Assets/FPS/Prefabs/Level/Floors/Floor_HalfIndented.prefab
+    - Assets/FPS/Prefabs/Level/Floors/Floor_HalfIndented.prefab.meta
+    - Assets/FPS/Prefabs/Level/Floors/Floor_Indented.prefab
+    - Assets/FPS/Prefabs/Level/Floors/Floor_Indented.prefab.meta
+    - Assets/FPS/Prefabs/Level/Floors/Floor_Medium.prefab
+    - Assets/FPS/Prefabs/Level/Floors/Floor_Medium.prefab.meta
+    - Assets/FPS/Prefabs/Level/Floors/Floor_Small.prefab
+    - Assets/FPS/Prefabs/Level/Floors/Floor_Small.prefab.meta
+    - Assets/FPS/Prefabs/Level/MainLvl.meta
+    - Assets/FPS/Prefabs/Level/MainLvl/Section1.meta
+    - Assets/FPS/Prefabs/Level/MainLvl/Section1/Observatory.prefab
+    - Assets/FPS/Prefabs/Level/MainLvl/Section1/Observatory.prefab.meta
+    - Assets/FPS/Prefabs/Level/MainLvl/Section1/Observatory_Hall.prefab
+    - Assets/FPS/Prefabs/Level/MainLvl/Section1/Observatory_Hall.prefab.meta
+    - Assets/FPS/Prefabs/Level/MainLvl/Section1/Observatory_Pit.prefab
+    - Assets/FPS/Prefabs/Level/MainLvl/Section1/Observatory_Pit.prefab.meta
+    - Assets/FPS/Prefabs/Level/MainLvl/Section1/Observatory_Ramp.prefab
+    - Assets/FPS/Prefabs/Level/MainLvl/Section1/Observatory_Ramp.prefab.meta
+    - Assets/FPS/Prefabs/Level/MainLvl/Section1/Observatory_Steps.prefab
+    - Assets/FPS/Prefabs/Level/MainLvl/Section1/Observatory_Steps.prefab.meta
+    - Assets/FPS/Prefabs/Level/MainLvl/Section2.meta
+    - Assets/FPS/Prefabs/Level/MainLvl/Section2/Entry_Section.prefab
+    - Assets/FPS/Prefabs/Level/MainLvl/Section2/Entry_Section.prefab.meta
+    - Assets/FPS/Prefabs/Level/MainLvl/Section2/Entryway_Jumps.prefab
+    - Assets/FPS/Prefabs/Level/MainLvl/Section2/Entryway_Jumps.prefab.meta
+    - Assets/FPS/Prefabs/Level/MainLvl/Section2/Floors_Entry.prefab
+    - Assets/FPS/Prefabs/Level/MainLvl/Section2/Floors_Entry.prefab.meta
+    - Assets/FPS/Prefabs/Level/MainLvl/Section2/Steps.prefab
+    - Assets/FPS/Prefabs/Level/MainLvl/Section2/Steps.prefab.meta
+    - Assets/FPS/Prefabs/Level/MainLvl/Section2/Walls_Entry.prefab
+    - Assets/FPS/Prefabs/Level/MainLvl/Section2/Walls_Entry.prefab.meta
+    - Assets/FPS/Prefabs/Level/MainLvl/Section3.meta
+    - Assets/FPS/Prefabs/Level/MainLvl/Section3/Balcony.prefab
+    - Assets/FPS/Prefabs/Level/MainLvl/Section3/Balcony.prefab.meta
+    - Assets/FPS/Prefabs/Level/MainLvl/Section3/Balcony_Ghost.prefab
+    - Assets/FPS/Prefabs/Level/MainLvl/Section3/Balcony_Ghost.prefab.meta
+    - Assets/FPS/Prefabs/Level/MainLvl/Section3/Base_Floor.prefab
+    - Assets/FPS/Prefabs/Level/MainLvl/Section3/Base_Floor.prefab.meta
+    - Assets/FPS/Prefabs/Level/MainLvl/Section3/Base_Wall.prefab
+    - Assets/FPS/Prefabs/Level/MainLvl/Section3/Base_Wall.prefab.meta
+    - Assets/FPS/Prefabs/Level/MainLvl/Section3/Open_Ceiling.prefab
+    - Assets/FPS/Prefabs/Level/MainLvl/Section3/Open_Ceiling.prefab.meta
+    - Assets/FPS/Prefabs/Level/MainLvl/Section3/Pit_Walls.prefab
+    - Assets/FPS/Prefabs/Level/MainLvl/Section3/Pit_Walls.prefab.meta
+    - Assets/FPS/Prefabs/Level/Ramps.meta
+    - Assets/FPS/Prefabs/Level/Ramps/Ramp_3m.prefab
+    - Assets/FPS/Prefabs/Level/Ramps/Ramp_3m.prefab.meta
+    - Assets/FPS/Prefabs/Level/Ramps/Ramp_4m.prefab
+    - Assets/FPS/Prefabs/Level/Ramps/Ramp_4m.prefab.meta
+    - Assets/FPS/Prefabs/Level/Ramps/Ramp_8m.prefab
+    - Assets/FPS/Prefabs/Level/Ramps/Ramp_8m.prefab.meta
+    - Assets/FPS/Prefabs/Level/Rooms.meta
+    - Assets/FPS/Prefabs/Level/Rooms/Room_Altar.prefab
+    - Assets/FPS/Prefabs/Level/Rooms/Room_Altar.prefab.meta
+    - Assets/FPS/Prefabs/Level/Rooms/Room_Medium.prefab
+    - Assets/FPS/Prefabs/Level/Rooms/Room_Medium.prefab.meta
+    - Assets/FPS/Prefabs/Level/Rooms/Room_Small_T.prefab
+    - Assets/FPS/Prefabs/Level/Rooms/Room_Small_T.prefab.meta
+    - Assets/FPS/Prefabs/Level/Rooms/Room_Small_Y.prefab
+    - Assets/FPS/Prefabs/Level/Rooms/Room_Small_Y.prefab.meta
+    - Assets/FPS/Prefabs/Level/Signs.meta
+    - Assets/FPS/Prefabs/Level/Signs/Sign_Basic_Floor.prefab
+    - Assets/FPS/Prefabs/Level/Signs/Sign_Basic_Floor.prefab.meta
+    - Assets/FPS/Prefabs/Level/Signs/Sign_Diamond.prefab
+    - Assets/FPS/Prefabs/Level/Signs/Sign_Diamond.prefab.meta
+    - Assets/FPS/Prefabs/Level/Signs/Sign_Pyramid_Green.prefab
+    - Assets/FPS/Prefabs/Level/Signs/Sign_Pyramid_Green.prefab.meta
+    - Assets/FPS/Prefabs/Level/Signs/Sign_Pyramid_Orange.prefab
+    - Assets/FPS/Prefabs/Level/Signs/Sign_Pyramid_Orange.prefab.meta
+    - Assets/FPS/Prefabs/Level/Signs/Sign_Triangle.prefab
+    - Assets/FPS/Prefabs/Level/Signs/Sign_Triangle.prefab.meta
+    - Assets/FPS/Prefabs/Level/Stairwell.meta
+    - Assets/FPS/Prefabs/Level/Stairwell/Stairs_Large.prefab
+    - Assets/FPS/Prefabs/Level/Stairwell/Stairs_Large.prefab.meta
+    - Assets/FPS/Prefabs/Level/Stairwell/Stairs_Small.prefab
+    - Assets/FPS/Prefabs/Level/Stairwell/Stairs_Small.prefab.meta
+    - Assets/FPS/Prefabs/Level/Stairwell/Stairwell_Large.prefab
+    - Assets/FPS/Prefabs/Level/Stairwell/Stairwell_Large.prefab.meta
+    - Assets/FPS/Prefabs/Level/Stairwell/Stairwell_Small.prefab
+    - Assets/FPS/Prefabs/Level/Stairwell/Stairwell_Small.prefab.meta
+    - Assets/FPS/Prefabs/Level/Steps.meta
+    - Assets/FPS/Prefabs/Level/Steps/HighStep.prefab
+    - Assets/FPS/Prefabs/Level/Steps/HighStep.prefab.meta
+    - Assets/FPS/Prefabs/Level/Steps/HighStep_Double.prefab
+    - Assets/FPS/Prefabs/Level/Steps/HighStep_Double.prefab.meta
+    - Assets/FPS/Prefabs/Level/Steps/HighStep_Triple.prefab
+    - Assets/FPS/Prefabs/Level/Steps/HighStep_Triple.prefab.meta
+    - Assets/FPS/Prefabs/Level/Steps/ShortSteps.prefab
+    - Assets/FPS/Prefabs/Level/Steps/ShortSteps.prefab.meta
+    - Assets/FPS/Prefabs/Level/Steps/ShortSteps_Corner.prefab
+    - Assets/FPS/Prefabs/Level/Steps/ShortSteps_Corner.prefab.meta
+    - Assets/FPS/Prefabs/Level/Steps/ShortSteps_Corner_Inverted.prefab
+    - Assets/FPS/Prefabs/Level/Steps/ShortSteps_Corner_Inverted.prefab.meta
+    - Assets/FPS/Prefabs/Level/Steps/ShortSteps_Inverted.prefab
+    - Assets/FPS/Prefabs/Level/Steps/ShortSteps_Inverted.prefab.meta
+    - Assets/FPS/Prefabs/Level/Walls.meta
+    - Assets/FPS/Prefabs/Level/Walls/Wall_1m.prefab
+    - Assets/FPS/Prefabs/Level/Walls/Wall_1m.prefab.meta
+    - Assets/FPS/Prefabs/Level/Walls/Wall_4m.prefab
+    - Assets/FPS/Prefabs/Level/Walls/Wall_4m.prefab.meta
+    - Assets/FPS/Prefabs/Level/Walls/Wall_Corner.prefab
+    - Assets/FPS/Prefabs/Level/Walls/Wall_Corner.prefab.meta
+    - Assets/FPS/Prefabs/Level/Walls/Wall_Door.prefab
+    - Assets/FPS/Prefabs/Level/Walls/Wall_Door.prefab.meta
+    - Assets/FPS/Prefabs/Level/Walls/Wall_DoorLarge.prefab
+    - Assets/FPS/Prefabs/Level/Walls/Wall_DoorLarge.prefab.meta
+    - Assets/FPS/Prefabs/Level/Walls/Wall_Window.prefab
+    - Assets/FPS/Prefabs/Level/Walls/Wall_Window.prefab.meta
+    - Assets/FPS/Prefabs/ObjectiveKillEnemies.prefab
+    - Assets/FPS/Prefabs/ObjectiveKillEnemies.prefab.meta
+    - Assets/FPS/Prefabs/ObjectivePickupItem.prefab
+    - Assets/FPS/Prefabs/ObjectivePickupItem.prefab.meta
+    - Assets/FPS/Prefabs/ObjectiveReachPoint.prefab
+    - Assets/FPS/Prefabs/ObjectiveReachPoint.prefab.meta
+    - Assets/FPS/Prefabs/PBObjects.meta
+    - Assets/FPS/Prefabs/PBObjects/Floors.meta
+    - Assets/FPS/Prefabs/PBObjects/Floors/PBBasic_Floor.prefab
+    - Assets/FPS/Prefabs/PBObjects/Floors/PBBasic_Floor.prefab.meta
+    - Assets/FPS/Prefabs/PBObjects/Floors/PBFloor_HalfIndented.prefab
+    - Assets/FPS/Prefabs/PBObjects/Floors/PBFloor_HalfIndented.prefab.meta
+    - Assets/FPS/Prefabs/PBObjects/Floors/PBFloor_Indented.prefab
+    - Assets/FPS/Prefabs/PBObjects/Floors/PBFloor_Indented.prefab.meta
+    - Assets/FPS/Prefabs/PBObjects/Ramps.meta
+    - Assets/FPS/Prefabs/PBObjects/Ramps/PBRamp_3m.prefab
+    - Assets/FPS/Prefabs/PBObjects/Ramps/PBRamp_3m.prefab.meta
+    - Assets/FPS/Prefabs/PBObjects/Ramps/PBRamp_4m.prefab
+    - Assets/FPS/Prefabs/PBObjects/Ramps/PBRamp_4m.prefab.meta
+    - Assets/FPS/Prefabs/PBObjects/Ramps/PBRamp_8m.prefab
+    - Assets/FPS/Prefabs/PBObjects/Ramps/PBRamp_8m.prefab.meta
+    - Assets/FPS/Prefabs/PBObjects/Signs.meta
+    - Assets/FPS/Prefabs/PBObjects/Signs/Diamond_Sign.obj
+    - Assets/FPS/Prefabs/PBObjects/Signs/Diamond_Sign.obj.meta
+    - Assets/FPS/Prefabs/PBObjects/Signs/Pyramid_Sign.obj
+    - Assets/FPS/Prefabs/PBObjects/Signs/Pyramid_Sign.obj.meta
+    - Assets/FPS/Prefabs/PBObjects/Signs/Triangle_Sign.obj
+    - Assets/FPS/Prefabs/PBObjects/Signs/Triangle_Sign.obj.meta
+    - Assets/FPS/Prefabs/PBObjects/Walls.meta
+    - Assets/FPS/Prefabs/PBObjects/Walls/PBDun_BigDoor.prefab
+    - Assets/FPS/Prefabs/PBObjects/Walls/PBDun_BigDoor.prefab.meta
+    - Assets/FPS/Prefabs/PBObjects/Walls/PBWall_1m.prefab
+    - Assets/FPS/Prefabs/PBObjects/Walls/PBWall_1m.prefab.meta
+    - Assets/FPS/Prefabs/PBObjects/Walls/PBWall_4m.prefab
+    - Assets/FPS/Prefabs/PBObjects/Walls/PBWall_4m.prefab.meta
+    - Assets/FPS/Prefabs/PBObjects/Walls/PBWall_Door.prefab
+    - Assets/FPS/Prefabs/PBObjects/Walls/PBWall_Door.prefab.meta
+    - Assets/FPS/Prefabs/PBObjects/Walls/PBWall_DoorLarge.prefab
+    - Assets/FPS/Prefabs/PBObjects/Walls/PBWall_DoorLarge.prefab.meta
+    - Assets/FPS/Prefabs/PBObjects/Walls/PBWall_Window.prefab
+    - Assets/FPS/Prefabs/PBObjects/Walls/PBWall_Window.prefab.meta
+    - Assets/FPS/Prefabs/PBObjects/_ReadMe_PBObjects.txt
+    - Assets/FPS/Prefabs/PBObjects/_ReadMe_PBObjects.txt.meta
+    - Assets/FPS/Prefabs/Pickups.meta
+    - Assets/FPS/Prefabs/Pickups/Loot_Health.prefab
+    - Assets/FPS/Prefabs/Pickups/Loot_Health.prefab.meta
+    - Assets/FPS/Prefabs/Pickups/Loot_Jetpack.prefab
+    - Assets/FPS/Prefabs/Pickups/Loot_Jetpack.prefab.meta
+    - Assets/FPS/Prefabs/Pickups/Pickup_Blaster.prefab
+    - Assets/FPS/Prefabs/Pickups/Pickup_Blaster.prefab.meta
+    - Assets/FPS/Prefabs/Pickups/Pickup_Health.prefab
+    - Assets/FPS/Prefabs/Pickups/Pickup_Health.prefab.meta
+    - Assets/FPS/Prefabs/Pickups/Pickup_Jetpack.prefab
+    - Assets/FPS/Prefabs/Pickups/Pickup_Jetpack.prefab.meta
+    - Assets/FPS/Prefabs/Pickups/Pickup_Launcher.prefab
+    - Assets/FPS/Prefabs/Pickups/Pickup_Launcher.prefab.meta
+    - Assets/FPS/Prefabs/Pickups/Pickup_Shotgun.prefab
+    - Assets/FPS/Prefabs/Pickups/Pickup_Shotgun.prefab.meta
+    - Assets/FPS/Prefabs/Player.prefab
+    - Assets/FPS/Prefabs/Player.prefab.meta
+    - Assets/FPS/Prefabs/Projectiles.meta
+    - Assets/FPS/Prefabs/Projectiles/Projectile_Blaster.prefab
+    - Assets/FPS/Prefabs/Projectiles/Projectile_Blaster.prefab.meta
+    - Assets/FPS/Prefabs/Projectiles/Projectile_Disc.prefab
+    - Assets/FPS/Prefabs/Projectiles/Projectile_Disc.prefab.meta
+    - Assets/FPS/Prefabs/Projectiles/Projectile_Hoverbot.prefab
+    - Assets/FPS/Prefabs/Projectiles/Projectile_Hoverbot.prefab.meta
+    - Assets/FPS/Prefabs/Projectiles/Projectile_Shotgun.prefab
+    - Assets/FPS/Prefabs/Projectiles/Projectile_Shotgun.prefab.meta
+    - Assets/FPS/Prefabs/Projectiles/Projectile_Turret.prefab
+    - Assets/FPS/Prefabs/Projectiles/Projectile_Turret.prefab.meta
+    - Assets/FPS/Prefabs/RootObjects.meta
+    - Assets/FPS/Prefabs/RootObjects/Altar.mtl
+    - Assets/FPS/Prefabs/RootObjects/Altar.mtl.meta
+    - Assets/FPS/Prefabs/RootObjects/Basic_Floor.mtl
+    - Assets/FPS/Prefabs/RootObjects/Basic_Floor.mtl.meta
+    - Assets/FPS/Prefabs/RootObjects/Floor_HalfIndented.mtl
+    - Assets/FPS/Prefabs/RootObjects/Floor_HalfIndented.mtl.meta
+    - Assets/FPS/Prefabs/RootObjects/Floor_Indented.mtl
+    - Assets/FPS/Prefabs/RootObjects/Floor_Indented.mtl.meta
+    - Assets/FPS/Prefabs/RootObjects/OBJAltar.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJAltar.obj.meta
+    - Assets/FPS/Prefabs/RootObjects/OBJBasic_Floor.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJBasic_Floor.obj.meta
+    - Assets/FPS/Prefabs/RootObjects/OBJDun_BigDoor.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJDun_BigDoor.obj.meta
+    - Assets/FPS/Prefabs/RootObjects/OBJFloor_HalfIndented.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJFloor_HalfIndented.obj.meta
+    - Assets/FPS/Prefabs/RootObjects/OBJFloor_Indented.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJFloor_Indented.obj.meta
+    - Assets/FPS/Prefabs/RootObjects/OBJRamp_3m.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJRamp_3m.obj.meta
+    - Assets/FPS/Prefabs/RootObjects/OBJRamp_4m.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJRamp_4m.obj.meta
+    - Assets/FPS/Prefabs/RootObjects/OBJRamp_8m.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJRamp_8m.obj.meta
+    - Assets/FPS/Prefabs/RootObjects/OBJWall_1m.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJWall_1m.obj.meta
+    - Assets/FPS/Prefabs/RootObjects/OBJWall_4m.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJWall_4m.obj.meta
+    - Assets/FPS/Prefabs/RootObjects/OBJWall_Door.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJWall_Door.obj.meta
+    - Assets/FPS/Prefabs/RootObjects/OBJWall_DoorLarge.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJWall_DoorLarge.obj.meta
+    - Assets/FPS/Prefabs/RootObjects/OBJWall_Window.obj
+    - Assets/FPS/Prefabs/RootObjects/OBJWall_Window.obj.meta
+    - Assets/FPS/Prefabs/RootObjects/PBDun_BigDoor.mtl
+    - Assets/FPS/Prefabs/RootObjects/PBDun_BigDoor.mtl.meta
+    - Assets/FPS/Prefabs/RootObjects/PBRamp_4m.mtl
+    - Assets/FPS/Prefabs/RootObjects/PBRamp_4m.mtl.meta
+    - Assets/FPS/Prefabs/RootObjects/Ramp_3m.mtl
+    - Assets/FPS/Prefabs/RootObjects/Ramp_3m.mtl.meta
+    - Assets/FPS/Prefabs/RootObjects/Ramp_4m.mtl
+    - Assets/FPS/Prefabs/RootObjects/Ramp_4m.mtl.meta
+    - Assets/FPS/Prefabs/RootObjects/Ramp_8m.mtl
+    - Assets/FPS/Prefabs/RootObjects/Ramp_8m.mtl.meta
+    - Assets/FPS/Prefabs/RootObjects/Wall_1m.mtl
+    - Assets/FPS/Prefabs/RootObjects/Wall_1m.mtl.meta
+    - Assets/FPS/Prefabs/RootObjects/Wall_4m.mtl
+    - Assets/FPS/Prefabs/RootObjects/Wall_4m.mtl.meta
+    - Assets/FPS/Prefabs/RootObjects/Wall_Door.mtl
+    - Assets/FPS/Prefabs/RootObjects/Wall_Door.mtl.meta
+    - Assets/FPS/Prefabs/RootObjects/Wall_DoorLarge.mtl
+    - Assets/FPS/Prefabs/RootObjects/Wall_DoorLarge.mtl.meta
+    - Assets/FPS/Prefabs/RootObjects/Wall_Window.mtl
+    - Assets/FPS/Prefabs/RootObjects/Wall_Window.mtl.meta
+    - Assets/FPS/Prefabs/RootObjects/_ReadMe_RootObjects.txt
+    - Assets/FPS/Prefabs/RootObjects/_ReadMe_RootObjects.txt.meta
+    - Assets/FPS/Prefabs/UI.meta
+    - Assets/FPS/Prefabs/UI/AmmoCounter.prefab
+    - Assets/FPS/Prefabs/UI/AmmoCounter.prefab.meta
+    - Assets/FPS/Prefabs/UI/CompassMarkerDirection.prefab
+    - Assets/FPS/Prefabs/UI/CompassMarkerDirection.prefab.meta
+    - Assets/FPS/Prefabs/UI/CompassMarkerEnemy.prefab
+    - Assets/FPS/Prefabs/UI/CompassMarkerEnemy.prefab.meta
+    - Assets/FPS/Prefabs/UI/CompassMarkerObjective.prefab
+    - Assets/FPS/Prefabs/UI/CompassMarkerObjective.prefab.meta
+    - Assets/FPS/Prefabs/UI/GameHUD.prefab
+    - Assets/FPS/Prefabs/UI/GameHUD.prefab.meta
+    - Assets/FPS/Prefabs/UI/GameMessageGeneric.prefab
+    - Assets/FPS/Prefabs/UI/GameMessageGeneric.prefab.meta
+    - Assets/FPS/Prefabs/UI/InGameMenu.prefab
+    - Assets/FPS/Prefabs/UI/InGameMenu.prefab.meta
+    - Assets/FPS/Prefabs/UI/NotificationToast.prefab
+    - Assets/FPS/Prefabs/UI/NotificationToast.prefab.meta
+    - Assets/FPS/Prefabs/UI/ObjectiveToastPrimary.prefab
+    - Assets/FPS/Prefabs/UI/ObjectiveToastPrimary.prefab.meta
+    - Assets/FPS/Prefabs/UI/ObjectiveToastSecondary.prefab
+    - Assets/FPS/Prefabs/UI/ObjectiveToastSecondary.prefab.meta
+    - Assets/FPS/Prefabs/UI/WinGameMessage.prefab
+    - Assets/FPS/Prefabs/UI/WinGameMessage.prefab.meta
+    - Assets/FPS/Prefabs/VFX.meta
+    - Assets/FPS/Prefabs/VFX/Directional Light.prefab
+    - Assets/FPS/Prefabs/VFX/Directional Light.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_Alert.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_Alert.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_Angry.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_Angry.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_AngrySteam.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_AngrySteam.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_AngrySteamTurret.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_AngrySteamTurret.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_DiskOrbitParticles.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_DiskOrbitParticles.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_DiskRange.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_DiskRange.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_Dust.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_Dust.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_Explosion.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_Explosion.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_GunCylinder.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_GunCylinder.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_GunCylinder_Secondary Variant.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_GunCylinder_Secondary Variant.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_HealthPickup.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_HealthPickup.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_HitSparks.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_HitSparks.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_HoverBot_Explosion.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_HoverBot_Explosion.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_JetpackTrail.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_JetpackTrail.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_Lava.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_Lava.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_LazerSparksBlue.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_LazerSparksBlue.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_LazerSparksGreen.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_LazerSparksGreen.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_LazerSparksRed.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_LazerSparksRed.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_MuzzleFlashBlue.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_MuzzleFlashBlue.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_MuzzleFlashGreen.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_MuzzleFlashGreen.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_MuzzleFlashRed.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_MuzzleFlashRed.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_OverheatPrimary.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_OverheatPrimary.prefab.meta
+    - Assets/FPS/Prefabs/VFX/VFX_PickupSparkles.prefab
+    - Assets/FPS/Prefabs/VFX/VFX_PickupSparkles.prefab.meta
+    - Assets/FPS/Prefabs/Weapons.meta
+    - Assets/FPS/Prefabs/Weapons/Weapon_Blaster.prefab
+    - Assets/FPS/Prefabs/Weapons/Weapon_Blaster.prefab.meta
+    - Assets/FPS/Prefabs/Weapons/Weapon_Launcher.prefab
+    - Assets/FPS/Prefabs/Weapons/Weapon_Launcher.prefab.meta
+    - Assets/FPS/Prefabs/Weapons/Weapon_Shotgun.prefab
+    - Assets/FPS/Prefabs/Weapons/Weapon_Shotgun.prefab.meta
+    - Assets/FPS/Scenes.meta
+    - Assets/FPS/Scenes/IntroMenu.unity
+    - Assets/FPS/Scenes/IntroMenu.unity.meta
+    - Assets/FPS/Scenes/LoseScene.unity
+    - Assets/FPS/Scenes/LoseScene.unity.meta
+    - Assets/FPS/Scenes/MainScene.meta
+    - Assets/FPS/Scenes/MainScene.unity
+    - Assets/FPS/Scenes/MainScene.unity.meta
+    - Assets/FPS/Scenes/MainScene/NavMesh-NavMeshSurface 1.asset
+    - Assets/FPS/Scenes/MainScene/NavMesh-NavMeshSurface 1.asset.meta
+    - Assets/FPS/Scenes/MainScene/NavMesh-NavMeshSurface 2.asset
+    - Assets/FPS/Scenes/MainScene/NavMesh-NavMeshSurface 2.asset.meta
+    - Assets/FPS/Scenes/MainScene/NavMesh-NavMeshSurface 3.asset
+    - Assets/FPS/Scenes/MainScene/NavMesh-NavMeshSurface 3.asset.meta
+    - Assets/FPS/Scenes/MainScene/NavMesh-NavMeshSurface.asset
+    - Assets/FPS/Scenes/MainScene/NavMesh-NavMeshSurface.asset.meta
+    - Assets/FPS/Scenes/MainScene/ReflectionProbe-2.exr
+    - Assets/FPS/Scenes/MainScene/ReflectionProbe-2.exr.meta
+    - Assets/FPS/Scenes/MainSceneSettings.lighting
+    - Assets/FPS/Scenes/MainSceneSettings.lighting.meta
+    - Assets/FPS/Scenes/SecondaryScene.meta
+    - Assets/FPS/Scenes/SecondaryScene.unity
+    - Assets/FPS/Scenes/SecondaryScene.unity.meta
+    - Assets/FPS/Scenes/SecondaryScene/LightingData.asset
+    - Assets/FPS/Scenes/SecondaryScene/LightingData.asset.meta
+    - Assets/FPS/Scenes/SecondaryScene/NavMesh.asset
+    - Assets/FPS/Scenes/SecondaryScene/NavMesh.asset.meta
+    - Assets/FPS/Scenes/SecondaryScene/ReflectionProbe-0.exr
+    - Assets/FPS/Scenes/SecondaryScene/ReflectionProbe-0.exr.meta
+    - Assets/FPS/Scenes/WinScene.unity
+    - Assets/FPS/Scenes/WinScene.unity.meta
+    - Assets/FPS/Scripts.meta
+    - Assets/FPS/Scripts/AI.meta
+    - Assets/FPS/Scripts/AI/DetectionModule.cs
+    - Assets/FPS/Scripts/AI/DetectionModule.cs.meta
+    - Assets/FPS/Scripts/AI/EnemyController.cs
+    - Assets/FPS/Scripts/AI/EnemyController.cs.meta
+    - Assets/FPS/Scripts/AI/EnemyManager.cs
+    - Assets/FPS/Scripts/AI/EnemyManager.cs.meta
+    - Assets/FPS/Scripts/AI/EnemyMobile.cs
+    - Assets/FPS/Scripts/AI/EnemyMobile.cs.meta
+    - Assets/FPS/Scripts/AI/EnemyTurret.cs
+    - Assets/FPS/Scripts/AI/EnemyTurret.cs.meta
+    - Assets/FPS/Scripts/AI/FollowPlayer.cs
+    - Assets/FPS/Scripts/AI/FollowPlayer.cs.meta
+    - Assets/FPS/Scripts/AI/NavigationModule.cs
+    - Assets/FPS/Scripts/AI/NavigationModule.cs.meta
+    - Assets/FPS/Scripts/AI/PatrolPath.cs
+    - Assets/FPS/Scripts/AI/PatrolPath.cs.meta
+    - Assets/FPS/Scripts/AI/fps.AI.asmdef
+    - Assets/FPS/Scripts/AI/fps.AI.asmdef.meta
+    - Assets/FPS/Scripts/Editor.meta
+    - Assets/FPS/Scripts/Editor/MiniProfiler.cs
+    - Assets/FPS/Scripts/Editor/MiniProfiler.cs.meta
+    - Assets/FPS/Scripts/Editor/PrefabReplacerEditor.cs
+    - Assets/FPS/Scripts/Editor/PrefabReplacerEditor.cs.meta
+    - Assets/FPS/Scripts/Editor/ShaderBuildStripping.cs
+    - Assets/FPS/Scripts/Editor/ShaderBuildStripping.cs.meta
+    - Assets/FPS/Scripts/Editor/UITableEditor.cs
+    - Assets/FPS/Scripts/Editor/UITableEditor.cs.meta
+    - Assets/FPS/Scripts/Editor/fps.Editor.asmdef
+    - Assets/FPS/Scripts/Editor/fps.Editor.asmdef.meta
+    - Assets/FPS/Scripts/Game.meta
+    - Assets/FPS/Scripts/Game/Actor.cs
+    - Assets/FPS/Scripts/Game/Actor.cs.meta
+    - Assets/FPS/Scripts/Game/AudioUtility.cs
+    - Assets/FPS/Scripts/Game/AudioUtility.cs.meta
+    - Assets/FPS/Scripts/Game/ConstantRotation.cs
+    - Assets/FPS/Scripts/Game/ConstantRotation.cs.meta
+    - Assets/FPS/Scripts/Game/DebugUtility.cs
+    - Assets/FPS/Scripts/Game/DebugUtility.cs.meta
+    - Assets/FPS/Scripts/Game/Events.cs
+    - Assets/FPS/Scripts/Game/Events.cs.meta
+    - Assets/FPS/Scripts/Game/GameConstants.cs
+    - Assets/FPS/Scripts/Game/GameConstants.cs.meta
+    - Assets/FPS/Scripts/Game/IgnoreHeatMap.cs
+    - Assets/FPS/Scripts/Game/IgnoreHeatMap.cs.meta
+    - Assets/FPS/Scripts/Game/IgnoreHitDetection.cs
+    - Assets/FPS/Scripts/Game/IgnoreHitDetection.cs.meta
+    - Assets/FPS/Scripts/Game/Managers.meta
+    - Assets/FPS/Scripts/Game/Managers/ActorsManager.cs
+    - Assets/FPS/Scripts/Game/Managers/ActorsManager.cs.meta
+    - Assets/FPS/Scripts/Game/Managers/AudioManager.cs
+    - Assets/FPS/Scripts/Game/Managers/AudioManager.cs.meta
+    - Assets/FPS/Scripts/Game/Managers/EventManager.cs
+    - Assets/FPS/Scripts/Game/Managers/EventManager.cs.meta
+    - Assets/FPS/Scripts/Game/Managers/GameFlowManager.cs
+    - Assets/FPS/Scripts/Game/Managers/GameFlowManager.cs.meta
+    - Assets/FPS/Scripts/Game/Managers/ObjectiveManager.cs
+    - Assets/FPS/Scripts/Game/Managers/ObjectiveManager.cs.meta
+    - Assets/FPS/Scripts/Game/MeshCombineUtility.cs
+    - Assets/FPS/Scripts/Game/MeshCombineUtility.cs.meta
+    - Assets/FPS/Scripts/Game/MeshCombiner.cs
+    - Assets/FPS/Scripts/Game/MeshCombiner.cs.meta
+    - Assets/FPS/Scripts/Game/MinMaxParameters.cs
+    - Assets/FPS/Scripts/Game/MinMaxParameters.cs.meta
+    - Assets/FPS/Scripts/Game/PrefabReplacer.cs
+    - Assets/FPS/Scripts/Game/PrefabReplacer.cs.meta
+    - Assets/FPS/Scripts/Game/PrefabReplacerOnInstance.cs
+    - Assets/FPS/Scripts/Game/PrefabReplacerOnInstance.cs.meta
+    - Assets/FPS/Scripts/Game/Shared.meta
+    - Assets/FPS/Scripts/Game/Shared/DamageArea.cs
+    - Assets/FPS/Scripts/Game/Shared/DamageArea.cs.meta
+    - Assets/FPS/Scripts/Game/Shared/Damageable.cs
+    - Assets/FPS/Scripts/Game/Shared/Damageable.cs.meta
+    - Assets/FPS/Scripts/Game/Shared/Destructable.cs
+    - Assets/FPS/Scripts/Game/Shared/Destructable.cs.meta
+    - Assets/FPS/Scripts/Game/Shared/Health.cs
+    - Assets/FPS/Scripts/Game/Shared/Health.cs.meta
+    - Assets/FPS/Scripts/Game/Shared/Objective.cs
+    - Assets/FPS/Scripts/Game/Shared/Objective.cs.meta
+    - Assets/FPS/Scripts/Game/Shared/ProjectileBase.cs
+    - Assets/FPS/Scripts/Game/Shared/ProjectileBase.cs.meta
+    - Assets/FPS/Scripts/Game/Shared/WeaponController.cs
+    - Assets/FPS/Scripts/Game/Shared/WeaponController.cs.meta
+    - Assets/FPS/Scripts/Game/TimedSelfDestruct.cs
+    - Assets/FPS/Scripts/Game/TimedSelfDestruct.cs.meta
+    - Assets/FPS/Scripts/Game/fps.Game.asmdef
+    - Assets/FPS/Scripts/Game/fps.Game.asmdef.meta
+    - Assets/FPS/Scripts/Gameplay.meta
+    - Assets/FPS/Scripts/Gameplay/AmmoPickup.cs
+    - Assets/FPS/Scripts/Gameplay/AmmoPickup.cs.meta
+    - Assets/FPS/Scripts/Gameplay/ChargedProjectileEffectsHandler.cs
+    - Assets/FPS/Scripts/Gameplay/ChargedProjectileEffectsHandler.cs.meta
+    - Assets/FPS/Scripts/Gameplay/ChargedWeaponEffectsHandler.cs
+    - Assets/FPS/Scripts/Gameplay/ChargedWeaponEffectsHandler.cs.meta
+    - Assets/FPS/Scripts/Gameplay/HealthPickup.cs
+    - Assets/FPS/Scripts/Gameplay/HealthPickup.cs.meta
+    - Assets/FPS/Scripts/Gameplay/Jetpack.cs
+    - Assets/FPS/Scripts/Gameplay/Jetpack.cs.meta
+    - Assets/FPS/Scripts/Gameplay/JetpackPickup.cs
+    - Assets/FPS/Scripts/Gameplay/JetpackPickup.cs.meta
+    - Assets/FPS/Scripts/Gameplay/Managers.meta
+    - Assets/FPS/Scripts/Gameplay/Managers/PlayerInputHandler.cs
+    - Assets/FPS/Scripts/Gameplay/Managers/PlayerInputHandler.cs.meta
+    - Assets/FPS/Scripts/Gameplay/Managers/PlayerWeaponsManager.cs
+    - Assets/FPS/Scripts/Gameplay/Managers/PlayerWeaponsManager.cs.meta
+    - Assets/FPS/Scripts/Gameplay/Objectives.meta
+    - Assets/FPS/Scripts/Gameplay/Objectives/ObjectiveKillEnemies.cs
+    - Assets/FPS/Scripts/Gameplay/Objectives/ObjectiveKillEnemies.cs.meta
+    - Assets/FPS/Scripts/Gameplay/Objectives/ObjectivePickupItem.cs
+    - Assets/FPS/Scripts/Gameplay/Objectives/ObjectivePickupItem.cs.meta
+    - Assets/FPS/Scripts/Gameplay/Objectives/ObjectiveReachPoint.cs
+    - Assets/FPS/Scripts/Gameplay/Objectives/ObjectiveReachPoint.cs.meta
+    - Assets/FPS/Scripts/Gameplay/OverheatBehavior.cs
+    - Assets/FPS/Scripts/Gameplay/OverheatBehavior.cs.meta
+    - Assets/FPS/Scripts/Gameplay/Pickup.cs
+    - Assets/FPS/Scripts/Gameplay/Pickup.cs.meta
+    - Assets/FPS/Scripts/Gameplay/PlayerCharacterController.cs
+    - Assets/FPS/Scripts/Gameplay/PlayerCharacterController.cs.meta
+    - Assets/FPS/Scripts/Gameplay/PositionBobbing.cs
+    - Assets/FPS/Scripts/Gameplay/PositionBobbing.cs.meta
+    - Assets/FPS/Scripts/Gameplay/ProjectileChargeParameters.cs
+    - Assets/FPS/Scripts/Gameplay/ProjectileChargeParameters.cs.meta
+    - Assets/FPS/Scripts/Gameplay/ProjectileStandard.cs
+    - Assets/FPS/Scripts/Gameplay/ProjectileStandard.cs.meta
+    - Assets/FPS/Scripts/Gameplay/TeleportPlayer.cs
+    - Assets/FPS/Scripts/Gameplay/TeleportPlayer.cs.meta
+    - Assets/FPS/Scripts/Gameplay/WeaponFuelCellHandler.cs
+    - Assets/FPS/Scripts/Gameplay/WeaponFuelCellHandler.cs.meta
+    - Assets/FPS/Scripts/Gameplay/WeaponPickup.cs
+    - Assets/FPS/Scripts/Gameplay/WeaponPickup.cs.meta
+    - Assets/FPS/Scripts/Gameplay/fps.Gameplay.asmdef
+    - Assets/FPS/Scripts/Gameplay/fps.Gameplay.asmdef.meta
+    - Assets/FPS/Scripts/UI.meta
+    - Assets/FPS/Scripts/UI/AmmoCounter.cs
+    - Assets/FPS/Scripts/UI/AmmoCounter.cs.meta
+    - Assets/FPS/Scripts/UI/Compass.cs
+    - Assets/FPS/Scripts/UI/Compass.cs.meta
+    - Assets/FPS/Scripts/UI/CompassElement.cs
+    - Assets/FPS/Scripts/UI/CompassElement.cs.meta
+    - Assets/FPS/Scripts/UI/CompassMarker.cs
+    - Assets/FPS/Scripts/UI/CompassMarker.cs.meta
+    - Assets/FPS/Scripts/UI/CrosshairManager.cs
+    - Assets/FPS/Scripts/UI/CrosshairManager.cs.meta
+    - Assets/FPS/Scripts/UI/DisplayMessage.cs
+    - Assets/FPS/Scripts/UI/DisplayMessage.cs.meta
+    - Assets/FPS/Scripts/UI/DisplayMessageManager.cs
+    - Assets/FPS/Scripts/UI/DisplayMessageManager.cs.meta
+    - Assets/FPS/Scripts/UI/EnemyCounter.cs
+    - Assets/FPS/Scripts/UI/EnemyCounter.cs.meta
+    - Assets/FPS/Scripts/UI/FeedbackFlashHUD.cs
+    - Assets/FPS/Scripts/UI/FeedbackFlashHUD.cs.meta
+    - Assets/FPS/Scripts/UI/FillBarColorChange.cs
+    - Assets/FPS/Scripts/UI/FillBarColorChange.cs.meta
+    - Assets/FPS/Scripts/UI/FramerateCounter.cs
+    - Assets/FPS/Scripts/UI/FramerateCounter.cs.meta
+    - Assets/FPS/Scripts/UI/InGameMenuManager.cs
+    - Assets/FPS/Scripts/UI/InGameMenuManager.cs.meta
+    - Assets/FPS/Scripts/UI/JetpackCounter.cs
+    - Assets/FPS/Scripts/UI/JetpackCounter.cs.meta
+    - Assets/FPS/Scripts/UI/LoadSceneButton.cs
+    - Assets/FPS/Scripts/UI/LoadSceneButton.cs.meta
+    - Assets/FPS/Scripts/UI/MenuNavigation.cs
+    - Assets/FPS/Scripts/UI/MenuNavigation.cs.meta
+    - Assets/FPS/Scripts/UI/NotificationHUDManager.cs
+    - Assets/FPS/Scripts/UI/NotificationHUDManager.cs.meta
+    - Assets/FPS/Scripts/UI/NotificationToast.cs
+    - Assets/FPS/Scripts/UI/NotificationToast.cs.meta
+    - Assets/FPS/Scripts/UI/ObjectiveHUDManager.cs
+    - Assets/FPS/Scripts/UI/ObjectiveHUDManager.cs.meta
+    - Assets/FPS/Scripts/UI/ObjectiveToast.cs
+    - Assets/FPS/Scripts/UI/ObjectiveToast.cs.meta
+    - Assets/FPS/Scripts/UI/PlayerHealthBar.cs
+    - Assets/FPS/Scripts/UI/PlayerHealthBar.cs.meta
+    - Assets/FPS/Scripts/UI/StanceHUD.cs
+    - Assets/FPS/Scripts/UI/StanceHUD.cs.meta
+    - Assets/FPS/Scripts/UI/TakeScreenshot.cs
+    - Assets/FPS/Scripts/UI/TakeScreenshot.cs.meta
+    - Assets/FPS/Scripts/UI/ToggleGameObjectButton.cs
+    - Assets/FPS/Scripts/UI/ToggleGameObjectButton.cs.meta
+    - Assets/FPS/Scripts/UI/UITable.cs
+    - Assets/FPS/Scripts/UI/UITable.cs.meta
+    - Assets/FPS/Scripts/UI/WeaponHUDManager.cs
+    - Assets/FPS/Scripts/UI/WeaponHUDManager.cs.meta
+    - Assets/FPS/Scripts/UI/WorldspaceHealthBar.cs
+    - Assets/FPS/Scripts/UI/WorldspaceHealthBar.cs.meta
+    - Assets/FPS/Scripts/UI/fps.UI.asmdef
+    - Assets/FPS/Scripts/UI/fps.UI.asmdef.meta
+    - Assets/FPS/Third-PartyNotice.txt
+    - Assets/FPS/Third-PartyNotice.txt.meta
+    - Assets/FPS/Tutorials.meta
+    - Assets/FPS/Tutorials/AddARoom.meta
+    - Assets/FPS/Tutorials/AddARoom/01-Introduction.asset
+    - Assets/FPS/Tutorials/AddARoom/01-Introduction.asset.meta
+    - Assets/FPS/Tutorials/AddARoom/019-Select-NavMesh.asset
+    - Assets/FPS/Tutorials/AddARoom/019-Select-NavMesh.asset.meta
+    - Assets/FPS/Tutorials/AddARoom/020-Bake-NavMesh.asset
+    - Assets/FPS/Tutorials/AddARoom/020-Bake-NavMesh.asset.meta
+    - Assets/FPS/Tutorials/AddARoom/03-Hand-Tool.asset
+    - Assets/FPS/Tutorials/AddARoom/03-Hand-Tool.asset.meta
+    - Assets/FPS/Tutorials/AddARoom/04-Try-Hand-Tool.asset
+    - Assets/FPS/Tutorials/AddARoom/04-Try-Hand-Tool.asset.meta
+    - Assets/FPS/Tutorials/AddARoom/05-Orbit-Scene.asset
+    - Assets/FPS/Tutorials/AddARoom/05-Orbit-Scene.asset.meta
+    - Assets/FPS/Tutorials/AddARoom/06-Zoom-Scene.asset
+    - Assets/FPS/Tutorials/AddARoom/06-Zoom-Scene.asset.meta
+    - Assets/FPS/Tutorials/AddARoom/071-Select-Object.asset
+    - Assets/FPS/Tutorials/AddARoom/071-Select-Object.asset.meta
+    - Assets/FPS/Tutorials/AddARoom/072-Frame-Object.asset
+    - Assets/FPS/Tutorials/AddARoom/072-Frame-Object.asset.meta
+    - Assets/FPS/Tutorials/AddARoom/08.asset
+    - Assets/FPS/Tutorials/AddARoom/08.asset.meta
+    - Assets/FPS/Tutorials/AddARoom/09.asset
+    - Assets/FPS/Tutorials/AddARoom/09.asset.meta
+    - Assets/FPS/Tutorials/AddARoom/13-Spawn-Room.asset
+    - Assets/FPS/Tutorials/AddARoom/13-Spawn-Room.asset.meta
+    - Assets/FPS/Tutorials/AddARoom/17-Select-Move.asset
+    - Assets/FPS/Tutorials/AddARoom/17-Select-Move.asset.meta
+    - Assets/FPS/Tutorials/AddARoom/18-Move-Object.asset
+    - Assets/FPS/Tutorials/AddARoom/18-Move-Object.asset.meta
+    - Assets/FPS/Tutorials/AddARoom/50-Project-Window.asset
+    - Assets/FPS/Tutorials/AddARoom/50-Project-Window.asset.meta
+    - Assets/FPS/Tutorials/AddARoom/60-Done.asset
+    - Assets/FPS/Tutorials/AddARoom/60-Done.asset.meta
+    - Assets/FPS/Tutorials/AddARoom/Add-A-Room-Walkthrough.asset
+    - Assets/FPS/Tutorials/AddARoom/Add-A-Room-Walkthrough.asset.meta
+    - Assets/FPS/Tutorials/AddARoom/RoomAssetLayout.wlt
+    - Assets/FPS/Tutorials/AddARoom/RoomAssetLayout.wlt.meta
+    - Assets/FPS/Tutorials/AddARoom/WT-Bake.png
+    - Assets/FPS/Tutorials/AddARoom/WT-Bake.png.meta
+    - Assets/FPS/Tutorials/AddARoom/WT-Hierarchy-and-Scene.png
+    - Assets/FPS/Tutorials/AddARoom/WT-Hierarchy-and-Scene.png.meta
+    - Assets/FPS/Tutorials/AddARoom/WT-Move-Object.mov
+    - Assets/FPS/Tutorials/AddARoom/WT-Move-Object.mov.meta
+    - Assets/FPS/Tutorials/AddARoom/WT-Orbit-Hand-Tool.mov
+    - Assets/FPS/Tutorials/AddARoom/WT-Orbit-Hand-Tool.mov.meta
+    - Assets/FPS/Tutorials/AddARoom/WT-Pan-Hand-Tool.mov
+    - Assets/FPS/Tutorials/AddARoom/WT-Pan-Hand-Tool.mov.meta
+    - Assets/FPS/Tutorials/AddARoom/WT-Project-Window.png
+    - Assets/FPS/Tutorials/AddARoom/WT-Project-Window.png.meta
+    - Assets/FPS/Tutorials/AddARoom/WT-Select-Hand-Tool.mov
+    - Assets/FPS/Tutorials/AddARoom/WT-Select-Hand-Tool.mov.meta
+    - Assets/FPS/Tutorials/AddARoom/WT-Select-Move.mov
+    - Assets/FPS/Tutorials/AddARoom/WT-Select-Move.mov.meta
+    - Assets/FPS/Tutorials/AddARoom/WT-Select-and-Frame.mov
+    - Assets/FPS/Tutorials/AddARoom/WT-Select-and-Frame.mov.meta
+    - Assets/FPS/Tutorials/AddARoom/WT-Zoom-Scene.png
+    - Assets/FPS/Tutorials/AddARoom/WT-Zoom-Scene.png.meta
+    - Assets/FPS/Tutorials/AddAnAsset.meta
+    - Assets/FPS/Tutorials/AddAnAsset/AddAnAsset-01.asset
+    - Assets/FPS/Tutorials/AddAnAsset/AddAnAsset-01.asset.meta
+    - Assets/FPS/Tutorials/AddAnAsset/AddAnAsset-05.asset
+    - Assets/FPS/Tutorials/AddAnAsset/AddAnAsset-05.asset.meta
+    - Assets/FPS/Tutorials/AddAnAsset/AddAnAsset-10.asset
+    - Assets/FPS/Tutorials/AddAnAsset/AddAnAsset-10.asset.meta
+    - Assets/FPS/Tutorials/AddAnAsset/AddAnAsset-15.asset
+    - Assets/FPS/Tutorials/AddAnAsset/AddAnAsset-15.asset.meta
+    - Assets/FPS/Tutorials/AddAnAsset/AddAnAsset-20.asset
+    - Assets/FPS/Tutorials/AddAnAsset/AddAnAsset-20.asset.meta
+    - Assets/FPS/Tutorials/AddAnAsset/AddAnAsset-Walkthrough.asset
+    - Assets/FPS/Tutorials/AddAnAsset/AddAnAsset-Walkthrough.asset.meta
+    - Assets/FPS/Tutorials/AddEnemyBot.meta
+    - Assets/FPS/Tutorials/AddEnemyBot/005.asset
+    - Assets/FPS/Tutorials/AddEnemyBot/005.asset.meta
+    - Assets/FPS/Tutorials/AddEnemyBot/015.asset
+    - Assets/FPS/Tutorials/AddEnemyBot/015.asset.meta
+    - Assets/FPS/Tutorials/AddEnemyBot/031.asset
+    - Assets/FPS/Tutorials/AddEnemyBot/031.asset.meta
+    - Assets/FPS/Tutorials/AddEnemyBot/032.asset
+    - Assets/FPS/Tutorials/AddEnemyBot/032.asset.meta
+    - Assets/FPS/Tutorials/AddEnemyBot/040.asset
+    - Assets/FPS/Tutorials/AddEnemyBot/040.asset.meta
+    - Assets/FPS/Tutorials/AddEnemyBot/Add-Enemy-Bot-Walkthrough.asset
+    - Assets/FPS/Tutorials/AddEnemyBot/Add-Enemy-Bot-Walkthrough.asset.meta
+    - Assets/FPS/Tutorials/AddEnemyBot/EnemyPrefabLayout.wlt
+    - Assets/FPS/Tutorials/AddEnemyBot/EnemyPrefabLayout.wlt.meta
+    - Assets/FPS/Tutorials/AddEnemyBot/WT-Drag-Prefab.mov
+    - Assets/FPS/Tutorials/AddEnemyBot/WT-Drag-Prefab.mov.meta
+    - Assets/FPS/Tutorials/AddEnemyBot/WT-Move-Object.mov
+    - Assets/FPS/Tutorials/AddEnemyBot/WT-Move-Object.mov.meta
+    - Assets/FPS/Tutorials/AddEnemyBot/WT-Scale-Object.mov
+    - Assets/FPS/Tutorials/AddEnemyBot/WT-Scale-Object.mov.meta
+    - Assets/FPS/Tutorials/AddEnemyBot/WT-Select-Move.mov
+    - Assets/FPS/Tutorials/AddEnemyBot/WT-Select-Move.mov.meta
+    - Assets/FPS/Tutorials/AddEnemyBot/WT-Select-Prefab.mov
+    - Assets/FPS/Tutorials/AddEnemyBot/WT-Select-Prefab.mov.meta
+    - Assets/FPS/Tutorials/AddEnemyBot/WT-Select-Scale.mov
+    - Assets/FPS/Tutorials/AddEnemyBot/WT-Select-Scale.mov.meta
+    - Assets/FPS/Tutorials/BotIcon.png
+    - Assets/FPS/Tutorials/BotIcon.png.meta
+    - Assets/FPS/Tutorials/BuildAndPublish.meta
+    - Assets/FPS/Tutorials/BuildAndPublish/Build and Publish.asset
+    - Assets/FPS/Tutorials/BuildAndPublish/Build and Publish.asset.meta
+    - Assets/FPS/Tutorials/BuildAndPublish/Criteria.meta
+    - Assets/FPS/Tutorials/BuildAndPublish/Criteria/PublishCriteria.asset
+    - Assets/FPS/Tutorials/BuildAndPublish/Criteria/PublishCriteria.asset.meta
+    - Assets/FPS/Tutorials/BuildAndPublish/Criteria/PublishCriteria.cs
+    - Assets/FPS/Tutorials/BuildAndPublish/Criteria/PublishCriteria.cs.meta
+    - Assets/FPS/Tutorials/BuildAndPublish/Criteria/Unity.Microgame.Tutorials.asmdef
+    - Assets/FPS/Tutorials/BuildAndPublish/Criteria/Unity.Microgame.Tutorials.asmdef.meta
+    - Assets/FPS/Tutorials/BuildAndPublish/WT-Create-Build-Click.mov
+    - Assets/FPS/Tutorials/BuildAndPublish/WT-Create-Build-Click.mov.meta
+    - Assets/FPS/Tutorials/BuildAndPublish/WT-Get-Started-Click.mov
+    - Assets/FPS/Tutorials/BuildAndPublish/WT-Get-Started-Click.mov.meta
+    - Assets/FPS/Tutorials/BuildAndPublish/WT-Open-Share-Window.mov
+    - Assets/FPS/Tutorials/BuildAndPublish/WT-Open-Share-Window.mov.meta
+    - Assets/FPS/Tutorials/BuildAndPublish/WT-Publish-Click.mov
+    - Assets/FPS/Tutorials/BuildAndPublish/WT-Publish-Click.mov.meta
+    - Assets/FPS/Tutorials/BuildAndPublish/WT-Publish.png
+    - Assets/FPS/Tutorials/BuildAndPublish/WT-Publish.png.meta
+    - Assets/FPS/Tutorials/BuildAndPublish/WT-Sign-In.png
+    - Assets/FPS/Tutorials/BuildAndPublish/WT-Sign-In.png.meta
+    - Assets/FPS/Tutorials/BuildAndPublish/WT-Upload.png
+    - Assets/FPS/Tutorials/BuildAndPublish/WT-Upload.png.meta
+    - Assets/FPS/Tutorials/BuildAndPublish/Walkthrough7-005.asset
+    - Assets/FPS/Tutorials/BuildAndPublish/Walkthrough7-005.asset.meta
+    - Assets/FPS/Tutorials/BuildAndPublish/Walkthrough7-010.asset
+    - Assets/FPS/Tutorials/BuildAndPublish/Walkthrough7-010.asset.meta
+    - Assets/FPS/Tutorials/BuildAndPublish/Walkthrough7-013.asset
+    - Assets/FPS/Tutorials/BuildAndPublish/Walkthrough7-013.asset.meta
+    - Assets/FPS/Tutorials/BuildAndPublish/Walkthrough7-014.asset
+    - Assets/FPS/Tutorials/BuildAndPublish/Walkthrough7-014.asset.meta
+    - Assets/FPS/Tutorials/BuildAndPublish/Walkthrough7-015.asset
+    - Assets/FPS/Tutorials/BuildAndPublish/Walkthrough7-015.asset.meta
+    - Assets/FPS/Tutorials/BuildAndPublish/Walkthrough7-020.asset
+    - Assets/FPS/Tutorials/BuildAndPublish/Walkthrough7-020.asset.meta
+    - Assets/FPS/Tutorials/BuildAndPublish/Walkthrough7-025.asset
+    - Assets/FPS/Tutorials/BuildAndPublish/Walkthrough7-025.asset.meta
+    - Assets/FPS/Tutorials/BuildAndPublish/Walkthrough7-030.asset
+    - Assets/FPS/Tutorials/BuildAndPublish/Walkthrough7-030.asset.meta
+    - Assets/FPS/Tutorials/BuildAndPublish/header-completed.png
+    - Assets/FPS/Tutorials/BuildAndPublish/header-completed.png.meta
+    - Assets/FPS/Tutorials/DialogHeader_FPS.png
+    - Assets/FPS/Tutorials/DialogHeader_FPS.png.meta
+    - Assets/FPS/Tutorials/EditColors.meta
+    - Assets/FPS/Tutorials/EditColors/01-Introduction.asset
+    - Assets/FPS/Tutorials/EditColors/01-Introduction.asset.meta
+    - Assets/FPS/Tutorials/EditColors/02-Select-and-Frame - delete.asset
+    - Assets/FPS/Tutorials/EditColors/02-Select-and-Frame - delete.asset.meta
+    - Assets/FPS/Tutorials/EditColors/03-Select-Material.asset
+    - Assets/FPS/Tutorials/EditColors/03-Select-Material.asset.meta
+    - Assets/FPS/Tutorials/EditColors/04-Change-Albedo.asset
+    - Assets/FPS/Tutorials/EditColors/04-Change-Albedo.asset.meta
+    - Assets/FPS/Tutorials/EditColors/05-Other-Materials - delete.asset
+    - Assets/FPS/Tutorials/EditColors/05-Other-Materials - delete.asset.meta
+    - Assets/FPS/Tutorials/EditColors/06-Play-Game - delete.asset
+    - Assets/FPS/Tutorials/EditColors/06-Play-Game - delete.asset.meta
+    - Assets/FPS/Tutorials/EditColors/07-Exit-Play - delete.asset
+    - Assets/FPS/Tutorials/EditColors/07-Exit-Play - delete.asset.meta
+    - Assets/FPS/Tutorials/EditColors/08-Done.asset
+    - Assets/FPS/Tutorials/EditColors/08-Done.asset.meta
+    - Assets/FPS/Tutorials/EditColors/Edit-Colors-Walkthrough.asset
+    - Assets/FPS/Tutorials/EditColors/Edit-Colors-Walkthrough.asset.meta
+    - Assets/FPS/Tutorials/EditColors/LevelMaterialLayout.wlt
+    - Assets/FPS/Tutorials/EditColors/LevelMaterialLayout.wlt.meta
+    - Assets/FPS/Tutorials/EditColors/WT-Change-Color.mov
+    - Assets/FPS/Tutorials/EditColors/WT-Change-Color.mov.meta
+    - Assets/FPS/Tutorials/EditColors/WT-Select-Material.mov
+    - Assets/FPS/Tutorials/EditColors/WT-Select-Material.mov.meta
+    - Assets/FPS/Tutorials/FPSIcon.png
+    - Assets/FPS/Tutorials/FPSIcon.png.meta
+    - Assets/FPS/Tutorials/Playtest.meta
+    - Assets/FPS/Tutorials/Playtest/01-Introduction.asset
+    - Assets/FPS/Tutorials/Playtest/01-Introduction.asset.meta
+    - Assets/FPS/Tutorials/Playtest/02-First-Play.asset
+    - Assets/FPS/Tutorials/Playtest/02-First-Play.asset.meta
+    - Assets/FPS/Tutorials/Playtest/03-Exit-Play.asset
+    - Assets/FPS/Tutorials/Playtest/03-Exit-Play.asset.meta
+    - Assets/FPS/Tutorials/Playtest/04-Hierarchy-Intro.asset
+    - Assets/FPS/Tutorials/Playtest/04-Hierarchy-Intro.asset.meta
+    - Assets/FPS/Tutorials/Playtest/05-Select-Object.asset
+    - Assets/FPS/Tutorials/Playtest/05-Select-Object.asset.meta
+    - Assets/FPS/Tutorials/Playtest/06-Inspector-Intro.asset
+    - Assets/FPS/Tutorials/Playtest/06-Inspector-Intro.asset.meta
+    - Assets/FPS/Tutorials/Playtest/07-Edit-Gravity.asset
+    - Assets/FPS/Tutorials/Playtest/07-Edit-Gravity.asset.meta
+    - Assets/FPS/Tutorials/Playtest/08-Play-New-Speed.asset
+    - Assets/FPS/Tutorials/Playtest/08-Play-New-Speed.asset.meta
+    - Assets/FPS/Tutorials/Playtest/09-Exit-Play.asset
+    - Assets/FPS/Tutorials/Playtest/09-Exit-Play.asset.meta
+    - Assets/FPS/Tutorials/Playtest/10-Done.asset
+    - Assets/FPS/Tutorials/Playtest/10-Done.asset.meta
+    - Assets/FPS/Tutorials/Playtest/Playtest-Walkthrough.asset
+    - Assets/FPS/Tutorials/Playtest/Playtest-Walkthrough.asset.meta
+    - Assets/FPS/Tutorials/Playtest/WT-Hiearchy.png
+    - Assets/FPS/Tutorials/Playtest/WT-Hiearchy.png.meta
+    - Assets/FPS/Tutorials/Playtest/WT-Inspector.png
+    - Assets/FPS/Tutorials/Playtest/WT-Inspector.png.meta
+    - Assets/FPS/Tutorials/Playtest/WT-Play.mov
+    - Assets/FPS/Tutorials/Playtest/WT-Play.mov.meta
+    - Assets/FPS/Tutorials/Playtest/WT-Select-Gameobject.mov
+    - Assets/FPS/Tutorials/Playtest/WT-Select-Gameobject.mov.meta
+    - Assets/FPS/Tutorials/Playtest/WT-Select-Property.mov
+    - Assets/FPS/Tutorials/Playtest/WT-Select-Property.mov.meta
+    - Assets/FPS/Tutorials/Pop.aiff
+    - Assets/FPS/Tutorials/Pop.aiff.meta
+    - Assets/FPS/Tutorials/SuperchargeYourGame.png
+    - Assets/FPS/Tutorials/SuperchargeYourGame.png.meta
+    - Assets/FPS/Tutorials/Tutorial Project Settings.asset
+    - Assets/FPS/Tutorials/Tutorial Project Settings.asset.meta
+    - Assets/FPS/Tutorials/TutorialCallbacks.asset
+    - Assets/FPS/Tutorials/TutorialCallbacks.asset.meta
+    - Assets/FPS/Tutorials/TutorialCallbacks.cs
+    - Assets/FPS/Tutorials/TutorialCallbacks.cs.meta
+    - Assets/FPS/Tutorials/TutorialHeader.png
+    - Assets/FPS/Tutorials/TutorialHeader.png.meta
+    - Assets/FPS/Tutorials/TutorialLayout.wlt
+    - Assets/FPS/Tutorials/TutorialLayout.wlt.meta
+    - Assets/FPS/Tutorials/Tutorials.asset
+    - Assets/FPS/Tutorials/Tutorials.asset.meta
+    - Assets/FPS/Tutorials/Unity.FPS.Tutorials.asmdef
+    - Assets/FPS/Tutorials/Unity.FPS.Tutorials.asmdef.meta
+    - Assets/FPS/Tutorials/WelcomeDialog.asset
+    - Assets/FPS/Tutorials/WelcomeDialog.asset.meta
+    - Assets/FPS/Tutorials/import-asset@2x.png
+    - Assets/FPS/Tutorials/import-asset@2x.png.meta
+    - Assets/ModAssets.meta
+    - Assets/ModAssets/Fonts.meta
+    - Assets/ModAssets/Fonts/Bangers-Regular SDF.asset
+    - Assets/ModAssets/Fonts/Bangers-Regular SDF.asset.meta
+    - Assets/ModAssets/Fonts/BioRhymeExpanded-Regular SDF.asset
+    - Assets/ModAssets/Fonts/BioRhymeExpanded-Regular SDF.asset.meta
+    - Assets/ModAssets/Fonts/CormorantUnicase-Regular SDF.asset
+    - Assets/ModAssets/Fonts/CormorantUnicase-Regular SDF.asset.meta
+    - Assets/ModAssets/Fonts/DancingScript-Regular SDF.asset
+    - Assets/ModAssets/Fonts/DancingScript-Regular SDF.asset.meta
+    - Assets/ModAssets/Fonts/IndieFlower SDF.asset
+    - Assets/ModAssets/Fonts/IndieFlower SDF.asset.meta
+    - Assets/ModAssets/Fonts/Merriweather-Regular SDF.asset
+    - Assets/ModAssets/Fonts/Merriweather-Regular SDF.asset.meta
+    - Assets/ModAssets/Fonts/Orbitron-Regular SDF.asset
+    - Assets/ModAssets/Fonts/Orbitron-Regular SDF.asset.meta
+    - Assets/ModAssets/Fonts/PressStart2P-Regular SDF.asset
+    - Assets/ModAssets/Fonts/PressStart2P-Regular SDF.asset.meta
+    - Assets/ModAssets/Fonts/Raleway-Regular SDF.asset
+    - Assets/ModAssets/Fonts/Raleway-Regular SDF.asset.meta
+    - Assets/ModAssets/Fonts/ZCOOLKuaiLe-Regular SDF.asset
+    - Assets/ModAssets/Fonts/ZCOOLKuaiLe-Regular SDF.asset.meta
+    - Assets/ModAssets/Materials.meta
+    - Assets/ModAssets/Materials/BillboardMaterials.meta
+    - Assets/ModAssets/Materials/BillboardMaterials/Billboard Content.mat
+    - Assets/ModAssets/Materials/BillboardMaterials/Billboard Content.mat.meta
+    - Assets/ModAssets/Materials/BillboardMaterials/Billboard Frame.mat
+    - Assets/ModAssets/Materials/BillboardMaterials/Billboard Frame.mat.meta
+    - Assets/ModAssets/Materials/Custom Materials.meta
+    - Assets/ModAssets/Materials/Custom Materials/Basic Black.mat
+    - Assets/ModAssets/Materials/Custom Materials/Basic Black.mat.meta
+    - Assets/ModAssets/Materials/Custom Materials/Basic Blue.mat
+    - Assets/ModAssets/Materials/Custom Materials/Basic Blue.mat.meta
+    - Assets/ModAssets/Materials/Custom Materials/Basic Green.mat
+    - Assets/ModAssets/Materials/Custom Materials/Basic Green.mat.meta
+    - Assets/ModAssets/Materials/Custom Materials/Basic Red.mat
+    - Assets/ModAssets/Materials/Custom Materials/Basic Red.mat.meta
+    - Assets/ModAssets/Materials/Custom Materials/Basic White.mat
+    - Assets/ModAssets/Materials/Custom Materials/Basic White.mat.meta
+    - Assets/ModAssets/Materials/Custom Materials/Glass Clear.mat
+    - Assets/ModAssets/Materials/Custom Materials/Glass Clear.mat.meta
+    - Assets/ModAssets/Materials/Custom Materials/Glass Dark.mat
+    - Assets/ModAssets/Materials/Custom Materials/Glass Dark.mat.meta
+    - Assets/ModAssets/Materials/Custom Materials/Metal Copper.mat
+    - Assets/ModAssets/Materials/Custom Materials/Metal Copper.mat.meta
+    - Assets/ModAssets/Materials/Custom Materials/Metal Silver.mat
+    - Assets/ModAssets/Materials/Custom Materials/Metal Silver.mat.meta
+    - Assets/ModAssets/Materials/Custom Materials/Neon Blue.mat
+    - Assets/ModAssets/Materials/Custom Materials/Neon Blue.mat.meta
+    - Assets/ModAssets/Materials/Custom Materials/Neon Glow.mat
+    - Assets/ModAssets/Materials/Custom Materials/Neon Glow.mat.meta
+    - Assets/ModAssets/Materials/Custom Materials/Neon Green.mat
+    - Assets/ModAssets/Materials/Custom Materials/Neon Green.mat.meta
+    - Assets/ModAssets/Materials/HatMaterials.meta
+    - Assets/ModAssets/Materials/HatMaterials/GlassesMaterial.mat
+    - Assets/ModAssets/Materials/HatMaterials/GlassesMaterial.mat.meta
+    - Assets/ModAssets/Materials/HatMaterials/PartyHatMaterial.mat
+    - Assets/ModAssets/Materials/HatMaterials/PartyHatMaterial.mat.meta
+    - Assets/ModAssets/Materials/HatMaterials/TopHatMaterial.mat
+    - Assets/ModAssets/Materials/HatMaterials/TopHatMaterial.mat.meta
+    - Assets/ModAssets/Materials/HatMaterials/WizardHatMaterial.mat
+    - Assets/ModAssets/Materials/HatMaterials/WizardHatMaterial.mat.meta
+    - Assets/ModAssets/Materials/Totems.meta
+    - Assets/ModAssets/Materials/Totems/M_StatueBig.mat
+    - Assets/ModAssets/Materials/Totems/M_StatueBig.mat.meta
+    - Assets/ModAssets/Materials/Totems/M_StatueWall.mat
+    - Assets/ModAssets/Materials/Totems/M_StatueWall.mat.meta
+    - Assets/ModAssets/Materials/TrailMaterials.meta
+    - Assets/ModAssets/Materials/TrailMaterials/FireTrailMaterial.mat
+    - Assets/ModAssets/Materials/TrailMaterials/FireTrailMaterial.mat.meta
+    - Assets/ModAssets/Materials/TrailMaterials/LaserTrailMaterial.mat
+    - Assets/ModAssets/Materials/TrailMaterials/LaserTrailMaterial.mat.meta
+    - Assets/ModAssets/Materials/TrailMaterials/LongTrailMaterial.mat
+    - Assets/ModAssets/Materials/TrailMaterials/LongTrailMaterial.mat.meta
+    - Assets/ModAssets/Materials/TrailMaterials/PlatformerRainbowTrailMaterial.mat
+    - Assets/ModAssets/Materials/TrailMaterials/PlatformerRainbowTrailMaterial.mat.meta
+    - Assets/ModAssets/Materials/TrailMaterials/RainbowTrailMaterial.mat
+    - Assets/ModAssets/Materials/TrailMaterials/RainbowTrailMaterial.mat.meta
+    - Assets/ModAssets/Materials/TrailMaterials/SubtleTrailMaterial.mat
+    - Assets/ModAssets/Materials/TrailMaterials/SubtleTrailMaterial.mat.meta
+    - Assets/ModAssets/Models.meta
+    - Assets/ModAssets/Models/AncientProps.meta
+    - Assets/ModAssets/Models/AncientProps/Archway.fbx
+    - Assets/ModAssets/Models/AncientProps/Archway.fbx.meta
+    - Assets/ModAssets/Models/AncientProps/MoaiHead.fbx
+    - Assets/ModAssets/Models/AncientProps/MoaiHead.fbx.meta
+    - Assets/ModAssets/Models/AncientProps/Obelisk.fbx
+    - Assets/ModAssets/Models/AncientProps/Obelisk.fbx.meta
+    - Assets/ModAssets/Models/AncientProps/Pillar.fbx
+    - Assets/ModAssets/Models/AncientProps/Pillar.fbx.meta
+    - Assets/ModAssets/Models/AncientProps/Pyramid.fbx
+    - Assets/ModAssets/Models/AncientProps/Pyramid.fbx.meta
+    - Assets/ModAssets/Models/BillboardMeshes.meta
+    - Assets/ModAssets/Models/BillboardMeshes/billboard_3D_basic.fbx
+    - Assets/ModAssets/Models/BillboardMeshes/billboard_3D_basic.fbx.meta
+    - Assets/ModAssets/Models/BillboardMeshes/billboard_3D_tall.fbx
+    - Assets/ModAssets/Models/BillboardMeshes/billboard_3D_tall.fbx.meta
+    - Assets/ModAssets/Models/FoodProps.meta
+    - Assets/ModAssets/Models/FoodProps/Cookie.fbx
+    - Assets/ModAssets/Models/FoodProps/Cookie.fbx.meta
+    - Assets/ModAssets/Models/FoodProps/Donut.fbx
+    - Assets/ModAssets/Models/FoodProps/Donut.fbx.meta
+    - Assets/ModAssets/Models/FoodProps/GummyBear.fbx
+    - Assets/ModAssets/Models/FoodProps/GummyBear.fbx.meta
+    - Assets/ModAssets/Models/FoodProps/Licorice.fbx
+    - Assets/ModAssets/Models/FoodProps/Licorice.fbx.meta
+    - Assets/ModAssets/Models/FoodProps/Lollipop.fbx
+    - Assets/ModAssets/Models/FoodProps/Lollipop.fbx.meta
+    - Assets/ModAssets/Models/HatMeshes.meta
+    - Assets/ModAssets/Models/HatMeshes/GlassesMesh.fbx
+    - Assets/ModAssets/Models/HatMeshes/GlassesMesh.fbx.meta
+    - Assets/ModAssets/Models/HatMeshes/PartyHatMesh.fbx
+    - Assets/ModAssets/Models/HatMeshes/PartyHatMesh.fbx.meta
+    - Assets/ModAssets/Models/HatMeshes/WizardHatMesh.fbx
+    - Assets/ModAssets/Models/HatMeshes/WizardHatMesh.fbx.meta
+    - Assets/ModAssets/Models/NatureProps.meta
+    - Assets/ModAssets/Models/NatureProps/Cactus.fbx
+    - Assets/ModAssets/Models/NatureProps/Cactus.fbx.meta
+    - Assets/ModAssets/Models/NatureProps/FallenTree.fbx
+    - Assets/ModAssets/Models/NatureProps/FallenTree.fbx.meta
+    - Assets/ModAssets/Models/NatureProps/FirTree.fbx
+    - Assets/ModAssets/Models/NatureProps/FirTree.fbx.meta
+    - Assets/ModAssets/Models/NatureProps/FlowerBush.fbx
+    - Assets/ModAssets/Models/NatureProps/FlowerBush.fbx.meta
+    - Assets/ModAssets/Models/NatureProps/Mushroom.fbx
+    - Assets/ModAssets/Models/NatureProps/Mushroom.fbx.meta
+    - Assets/ModAssets/Models/NatureProps/PalmTree.fbx
+    - Assets/ModAssets/Models/NatureProps/PalmTree.fbx.meta
+    - Assets/ModAssets/Models/SpaceProps.meta
+    - Assets/ModAssets/Models/SpaceProps/Asteroid.fbx
+    - Assets/ModAssets/Models/SpaceProps/Asteroid.fbx.meta
+    - Assets/ModAssets/Models/SpaceProps/Crystal.fbx
+    - Assets/ModAssets/Models/SpaceProps/Crystal.fbx.meta
+    - Assets/ModAssets/Models/SpaceProps/Rocket.fbx
+    - Assets/ModAssets/Models/SpaceProps/Rocket.fbx.meta
+    - Assets/ModAssets/Models/SpaceProps/SatelliteDish.fbx
+    - Assets/ModAssets/Models/SpaceProps/SatelliteDish.fbx.meta
+    - Assets/ModAssets/Models/Totems.meta
+    - Assets/ModAssets/Models/Totems/Altar.prefab
+    - Assets/ModAssets/Models/Totems/Altar.prefab.meta
+    - Assets/ModAssets/Models/Totems/Mesh_Statue_Big.fbx
+    - Assets/ModAssets/Models/Totems/Mesh_Statue_Big.fbx.meta
+    - Assets/ModAssets/Models/Totems/Mesh_Statue_Wall.fbx
+    - Assets/ModAssets/Models/Totems/Mesh_Statue_Wall.fbx.meta
+    - Assets/ModAssets/Models/Weapons.meta
+    - Assets/ModAssets/Models/Weapons/Mesh_Weapon_1.fbx
+    - Assets/ModAssets/Models/Weapons/Mesh_Weapon_1.fbx.meta
+    - Assets/ModAssets/Models/Weapons/Mesh_Weapon_2.fbx
+    - Assets/ModAssets/Models/Weapons/Mesh_Weapon_2.fbx.meta
+    - Assets/ModAssets/Prefabs.meta
+    - Assets/ModAssets/Prefabs/BillboardPrefabs.meta
+    - Assets/ModAssets/Prefabs/BillboardPrefabs/BillboardBasic.prefab
+    - Assets/ModAssets/Prefabs/BillboardPrefabs/BillboardBasic.prefab.meta
+    - Assets/ModAssets/Prefabs/BillboardPrefabs/BillboardTall.prefab
+    - Assets/ModAssets/Prefabs/BillboardPrefabs/BillboardTall.prefab.meta
+    - Assets/ModAssets/Prefabs/BillboardPrefabs/BillboardWide.prefab
+    - Assets/ModAssets/Prefabs/BillboardPrefabs/BillboardWide.prefab.meta
+    - Assets/ModAssets/Prefabs/Hat Prefabs.meta
+    - Assets/ModAssets/Prefabs/Hat Prefabs/PartyHat.prefab
+    - Assets/ModAssets/Prefabs/Hat Prefabs/PartyHat.prefab.meta
+    - Assets/ModAssets/Prefabs/Hat Prefabs/TopHat.prefab
+    - Assets/ModAssets/Prefabs/Hat Prefabs/TopHat.prefab.meta
+    - Assets/ModAssets/Prefabs/Hat Prefabs/WizardHat.prefab
+    - Assets/ModAssets/Prefabs/Hat Prefabs/WizardHat.prefab.meta
+    - Assets/ModAssets/Prefabs/Particle Prefabs.meta
+    - Assets/ModAssets/Prefabs/Particle Prefabs/ConfettiCelebration.prefab
+    - Assets/ModAssets/Prefabs/Particle Prefabs/ConfettiCelebration.prefab.meta
+    - Assets/ModAssets/Prefabs/Totems.meta
+    - Assets/ModAssets/Prefabs/Totems/Statue_Big.prefab
+    - Assets/ModAssets/Prefabs/Totems/Statue_Big.prefab.meta
+    - Assets/ModAssets/Prefabs/Totems/Statue_Wall.prefab
+    - Assets/ModAssets/Prefabs/Totems/Statue_Wall.prefab.meta
+    - Assets/ModAssets/Prefabs/Trail Prefabs.meta
+    - Assets/ModAssets/Prefabs/Trail Prefabs/FireTrail.prefab
+    - Assets/ModAssets/Prefabs/Trail Prefabs/FireTrail.prefab.meta
+    - Assets/ModAssets/Prefabs/Trail Prefabs/LaserTrail.prefab
+    - Assets/ModAssets/Prefabs/Trail Prefabs/LaserTrail.prefab.meta
+    - Assets/ModAssets/Prefabs/Trail Prefabs/RainbowTrail.prefab
+    - Assets/ModAssets/Prefabs/Trail Prefabs/RainbowTrail.prefab.meta
+    - Assets/ModAssets/Textures.meta
+    - Assets/ModAssets/Textures/billboard_2D_basic.png
+    - Assets/ModAssets/Textures/billboard_2D_basic.png.meta
+    - Assets/ModAssets/Textures/billboard_2D_basic_mask.png
+    - Assets/ModAssets/Textures/billboard_2D_basic_mask.png.meta
+    - Assets/ModAssets/Textures/billboard_2D_tall.png
+    - Assets/ModAssets/Textures/billboard_2D_tall.png.meta
+    - Assets/ModAssets/Textures/billboard_2D_tall_mask.png
+    - Assets/ModAssets/Textures/billboard_2D_tall_mask.png.meta
+    - Assets/ModAssets/Textures/billboard_2D_wide.png
+    - Assets/ModAssets/Textures/billboard_2D_wide.png.meta
+    - Assets/ModAssets/Textures/billboard_2D_wide_mask.png
+    - Assets/ModAssets/Textures/billboard_2D_wide_mask.png.meta
+    - Assets/ModAssets/Textures/rainbowtexture.png
+    - Assets/ModAssets/Textures/rainbowtexture.png.meta
+    - Assets/NavMeshComponents.meta
+    - Assets/NavMeshComponents/Editor.meta
+    - Assets/NavMeshComponents/Editor/NavMeshAssetManager.cs
+    - Assets/NavMeshComponents/Editor/NavMeshAssetManager.cs.meta
+    - Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef
+    - Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef.meta
+    - Assets/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs
+    - Assets/NavMeshComponents/Editor/NavMeshComponentsGUIUtility.cs.meta
+    - Assets/NavMeshComponents/Editor/NavMeshLinkEditor.cs
+    - Assets/NavMeshComponents/Editor/NavMeshLinkEditor.cs.meta
+    - Assets/NavMeshComponents/Editor/NavMeshModifierEditor.cs
+    - Assets/NavMeshComponents/Editor/NavMeshModifierEditor.cs.meta
+    - Assets/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs
+    - Assets/NavMeshComponents/Editor/NavMeshModifierVolumeEditor.cs.meta
+    - Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs
+    - Assets/NavMeshComponents/Editor/NavMeshSurfaceEditor.cs.meta
+    - Assets/NavMeshComponents/LICENSE
+    - Assets/NavMeshComponents/LICENSE.meta
+    - Assets/NavMeshComponents/README.md
+    - Assets/NavMeshComponents/README.md.meta
+    - Assets/NavMeshComponents/Scripts.meta
+    - Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef
+    - Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef.meta
+    - Assets/NavMeshComponents/Scripts/NavMeshLink.cs
+    - Assets/NavMeshComponents/Scripts/NavMeshLink.cs.meta
+    - Assets/NavMeshComponents/Scripts/NavMeshModifier.cs
+    - Assets/NavMeshComponents/Scripts/NavMeshModifier.cs.meta
+    - Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs
+    - Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs.meta
+    - Assets/NavMeshComponents/Scripts/NavMeshSurface.cs
+    - Assets/NavMeshComponents/Scripts/NavMeshSurface.cs.meta
+    - Assets/New Physics Material 2D.physicsMaterial2D
+    - Assets/New Physics Material 2D.physicsMaterial2D.meta
+    - Assets/New Prefab.prefab
+    - Assets/New Prefab.prefab.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Shaders.meta
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne_License.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne_License.txt.meta
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt.meta
+    - ProjectSettings/UnityConnectSettings.asset
+    - 
+    m_Values: 010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+  RevisionSummary: "\u041A\u0415\u041F\u0423"
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
